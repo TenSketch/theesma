@@ -1,90 +1,792 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>The Esma Events</title>
-  <meta name="description" content="Esma Events">
-  <meta name="keywords" content="events company, events website, events">
-  <!-- Open Graph general (Facebook, Pinterest & Google+) -->
-  <meta property="og:image:width" content="279">
-  <meta property="og:image:height" content="279">
-  <meta property="og:description" content="Esma Events">
-  <meta property="og:keywords" content="events company, events website, events">
-  <meta property="og:title" content="The Esma Events">
-  <meta property="og:url" content="https://theesma.com/">
-  <meta property="og:image" content="https://theesma.com/og-image.jpg">
-  <meta property="og:title" content="The Esma Events">
-  <link rel="apple-touch-icon" sizes="57x57" href="images/favicons/apple-icon-57x57.png">
-  <link rel="apple-touch-icon" sizes="60x60" href="images/favicons/apple-icon-60x60.png">
+  <meta charset="utf-8">
+  <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+  <meta name="robots" content="index, follow">
+  <meta name="keywords" content="events, media, PR">
+  <meta name="description" content="Media, Events, PR">
+  <meta name="author" content="TenSketch">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="theme-color" content="#2a2b2f">
+  <!-- FAVICONS -->
+  <link rel="shortcut icon" href="images/favicons/favicon-32x32.png">
+  <link rel="apple-touch-icon" href="images/favicons/apple-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="72x72" href="images/favicons/apple-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="images/favicons/apple-icon-76x76.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="images/favicons/apple-icon-114x114.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="images/favicons/apple-icon-120x120.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="images/favicons/apple-icon-144x144.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="images/favicons/apple-icon-152x152.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="images/favicons/apple-icon-180x180.png">
-  <link rel="icon" type="image/png" sizes="192x192" href="images/favicons/android-icon-192x192.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="images/favicons/favicon-32x32.png">
-  <link rel="manifest" href="images/favicons/manifest.json">
-  <meta name="msapplication-TileColor" content="#ffffff">
-  <meta name="msapplication-TileImage" content="images/favicons/ms-icon-144x144.png">
-  <meta name="theme-color" content="#ffffff">
+  <link rel="apple-touch-icon" sizes="114x114" href="images/favicons/android-icon-144x144.png">
+  <link rel="icon" sizes="192x192" href="images/favicons/android-icon-192x192.png">
+  <!-- CSS -->
+  <!--  GOOGLE FONT -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:500,600,300%7COpen+Sans:400,300,700" rel="stylesheet"
+    type="text/css">
+  <!-- REVOSLIDER CSS SETTINGS -->
+  <!-- REVOLUTION STYLE SHEETS -->
+  <link href="revo-slider/css/settings.css" rel="stylesheet" type="text/css">
+  <!-- REVOLUTION NAVIGATION STYLES -->
+  <link rel="stylesheet" type="text/css" href="revo-slider/css/navigation-skins/hermes-custom.css">
+  <!--  BOOTSTRAP -->
   <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- ICONS ELEGANT FONT & FONT AWESOME & LINEA ICONS  -->
+  <link rel="stylesheet" href="css/icons-fonts.css">
+  <!--  CSS THEME -->
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/bootstrap-datepicker.min.css">
+  <!-- ANIMATE -->
   <link rel="stylesheet" href="css/animate.min.css">
-  <link rel="stylesheet" href="css/all.min.css">
-  <link href="https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei&display=swap" rel="stylesheet">
+
 </head>
+
 <body>
-  <section class="intro parallax">
-    <div class="parallax-overlay">
-      <div class="container">
-        <img src="images/Esma_logo.webp" class="animated fadeInDown slow img-fluid logo" alt="Esma_logo">
-        <h2 class="text-center animated fadeInUp pt-5">Brand new website under construction</h2>
-      </div>
-    </div>
-  </section>
-  <section id="footer">
-    <div class="container text-center">
-      <hr class="bg-white">
-      <div class="row">
-        <div class="col-lg-8">
-          <h3 class="animated fadeInUp slow">About us</h3><br>
-          <p class="text-justify animated fadeInUp slow delay-1s">The ESMA Events & Services is about “KLEPT”- Kairos,
-            Logo’s, Ethos, Pathos and Topos
-            based Success.<br> Esma's approach is its inventiveness and execution to establish noteworthy Brand identity
-            and impression for our customers. Having a sum of 13 years’ experience from the Co-Founder and Partner in
-            the Event administration and Digital Technology verticals, the organization's central goal is to guarantee
-            that each administration is attentively taken all through to make moments that will have a deep rooting
-            impression!<br>When you are intending to make an impression, mark and significant moment for your
-            organization, it's vital to ensure it goes in the correct way. We put our best decisions and thoughts from
-            the board of specialists that will make your huge occasion idealize.
-          </p>
+  <!-- LOADER -->
+  <div id="loader-overflow">
+    <div id="loader3" class="loader-cont">Please enable JS</div>
+  </div>
+  <div id="wrap" class="boxed ">
+    <div class="grey-bg">
+      <!-- HEADER 1 FONT WHITE TRANSPARENT -->
+      <div class="header-black-bg"></div> <!-- NEED FOR TRANSPARENT HEADER ON MOBILE -->
+      <header id="nav" class="header header-1 header-black affix-on-mobile">
+        <div class="header-wrapper">
+          <div class="container-m-30 clearfix">
+            <div class="logo-row">
+              <!-- LOGO -->
+              <div class="logo-container-2">
+                <div class="logo-2">
+                  <a href="index.html" class="clearfix">
+                    <img src="images/Esma_logo.webp" class="logo-img" alt="Logo">
+                  </a>
+                </div>
+              </div>
+              <!-- BUTTON -->
+              <div class="menu-btn-respons-container">
+                <button id="menu-btn" type="button" class="navbar-toggle btn-navbar collapsed" data-toggle="collapse"
+                  data-target="#main-menu .navbar-collapse">
+                  <span aria-hidden="true" class="icon_menu hamb-mob-icon"></span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- MAIN MENU CONTAINER -->
+          <div class="main-menu-container">
+            <div class="container-m-30 clearfix">
+              <!-- MAIN MENU -->
+              <div id="main-menu">
+                <div class="navbar navbar-default" role="navigation">
+                  <!-- MAIN MENU LIST -->
+                  <nav class="collapse collapsing navbar-collapse right-1024">
+                    <ul class="nav navbar-nav">
+                      <!-- MENU ITEM -->
+                      <li class="parent">
+                        <a href="#events">
+                          <div class="main-menu-title">Events</div>
+                        </a>
+                      </li>
+                      <!-- MENU ITEM -->
+                      <li class="parent">
+                        <a href="#media_pr">
+                          <div class="main-menu-title">Media & PR</div>
+                        </a>
+                      </li>
+                      <li class="parent">
+                        <a href="#about">
+                          <div class="main-menu-title">About</div>
+                        </a>
+                      </li>
+                      <!-- MEGA MENU ITEM -->
+                      <!-- <li class="parent">
+                        <a href="#portfolio">
+                          <div class="main-menu-title">Portfolio</div>
+                        </a>
+                      </li> -->
+                      <!-- MENU ITEM -->
+                      <!-- <li class="parent">
+                        <a href="#strength">
+                          <div class="main-menu-title">Our Strength</div>
+                        </a>
+                      </li> -->
+                      <!-- MENU ITEM -->
+                      <li class="parent">
+                        <a href="#contact">
+                          <div class="main-menu-title">Contact</div>
+                        </a>
+                      </li>
+                    </ul>
+                  </nav>
+                </div>
+              </div>
+              <!-- END main-menu -->
+            </div>
+            <!-- END container-m-30 -->
+          </div>
         </div>
-        <div class="col-lg-4">
-          <h3 class="animated fadeInUp slow">Reach us</h3><br>
-          <div class="animated fadeInUp slow delay-1s">
-            <i class="fa fa-mobile"></i>
-            <a href="tel:+918939347216" aria-label="click to call mobile">91-8939347216</a>, <a href="tel:+918939348726"
-              aria-label="click to call mobile">91-8939348726</a><br>
-            <i class="fa fa-envelope"></i>
-            <a href="mailto:theesmaindia@gmail.com" target="_top"
-              aria-label="click to send mail">theesmaindia@gmail.com</a>
+        <!-- END header-wrapper -->
+      </header>
+      <!-- SLIDER Revo 8 -->
+      <div class="relative" style="overflow:hidden;">
+        <div class="rev_slider_wrapper fullscreen-container" id="rev_slider_280_1_wrapper"
+          style="background-color:#fff;padding:0px;">
+          <!-- START REVOLUTION SLIDER fullscreen mode -->
+          <div id="rev_slider_202_1" class="rev_slider fullscreenbanner arrows-black" style="display:none;"
+            data-version="5.1.1RC">
+            <ul>
+              <!-- SLIDE 1  -->
+              <li data-index="rs-673" data-transition="fade" data-slotamount="default" data-easein="default"
+                data-easeout="default" data-masterspeed="default" data-thumb="images/new/yoga_180x110.jpg"
+                data-rotate="0" data-saveperformance="off" data-title="Yoga Event" data-description="">
+                <!-- MAIN IMAGE -->
+                <img src="images/new/yoga.jpg" alt="" data-bgposition="center center" data-bgfit="cover"
+                  data-bgrepeat="no-repeat" data-bgparallax="5" class="rev-slidebg" data-no-retina>
+                <!-- LAYERS -->
+                <!-- LAYER NR. 1 -->
+                <div class="tp-caption font-poppins font-black tp-resizeme rs-parallaxlevel-6 font-ts-media"
+                  id="slide-8981-layer-1" style="z-index: 8; white-space: nowrap;color: #E2F1FF!important;"
+                  data-fontsize="['35','35','30','30']" data-fontweight="400" data-height="none"
+                  data-lineheight="['80','80','74','74']" data-responsive_offset="on" data-splitin="none"
+                  data-splitout="none"
+                  data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":350,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"nothing"}]'
+                  data-whitespace="nowrap" data-width="none" data-x="['center','center','center','center']"
+                  data-hoffset="['0','0','0',0']" data-y="['center','center','center','center']"
+                  data-voffset="['-110','-90','-90','-80']">
+                  On december 8th 2019 we have a
+                </div>
+                <!-- LAYER NR. 2 -->
+                <div class="tp-caption font-poppins font-black tp-resizeme rs-parallaxlevel-6 font-ts"
+                  id="slide-8981-layer-2" style="z-index: 8; white-space: nowrap; color: #E2F1FF!important;"
+                  data-fontsize="['130','120','100','85']" data-fontweight="300" data-height="none"
+                  data-lineheight="['140','130','110','95']" data-responsive_offset="on" data-splitin="none"
+                  data-splitout="none"
+                  data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":550,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"nothing"}]'
+                  data-whitespace="nowrap" data-width="none" data-x="['center','center','center','center']"
+                  data-hoffset="['0','0','0',0']" data-y="['center','center','center','center']"
+                  data-voffset="['0','0','0',0']">
+                  State Level Yoga Championship
+                </div>
+                <!-- LAYER NR. 3 -->
+                <div class="tp-caption rs-parallaxlevel-6" id="slide-1291-layer-3"
+                  data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+                  data-y="['center','center','center','center']" data-voffset="['120','120','120',100']"
+                  data-width="none" data-height="none" data-whitespace="nowrap"
+                  data-frames='[{"from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1200,"to":"o:1;","delay":1700,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"nothing"}]'
+                  data-splitin="none" data-splitout="none" data-responsive_offset="on" data-responsive="off"
+                  style="z-index: 8; white-space: nowrap;outline:none;"><a class="button medium full-rounded gray"
+                    href="#upcoming_events">Know More</a>
+                </div>
+              </li>
+              <!-- SLIDE 2 -->
+              <li data-index="rs-671" data-transition="fade" data-slotamount="default" data-easein="default"
+                data-easeout="default" data-masterspeed="default" data-thumb="images/new/water_180x110.jpg"
+                data-rotate="0" data-saveperformance="off" data-title="What we do" data-description="">
+                <!-- MAIN IMAGE -->
+                <img src="images/new/water_bg.jpg" alt="" data-bgposition="center center" data-bgfit="cover"
+                  data-bgrepeat="no-repeat" data-bgparallax="5" class="rev-slidebg" data-no-retina>
+                <!-- LAYERS -->
+                <!-- LAYER NR. 1 -->
+                <div class="tp-caption font-poppins tp-resizeme rs-parallaxlevel-6 text-white" id="slide-8981-layer-2"
+                  style="z-index: 8; white-space: nowrap; " data-fontsize="['130','120','100','85']"
+                  data-fontweight="300" data-height="none" data-lineheight="['140','130','110','95']"
+                  data-responsive_offset="on" data-splitin="none" data-splitout="none"
+                  data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":550,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"nothing"}]'
+                  data-whitespace="nowrap" data-width="none" data-x="['center','center','center','center']"
+                  data-hoffset="['0','0','0',0']" data-y="['center','center','center','center']"
+                  data-voffset="['0','0','0',0']">
+                  The Esma Events
+                </div>
+                <!-- LAYER NR. 2 -->
+                <div class="tp-caption font-poppins  tp-resizem rs-parallaxlevel-6 text-white" id="slide-8981-layer-1"
+                  style="z-index: 8; white-space: nowrap;" data-fontsize="['35','35','30','30']" data-fontweight="400"
+                  data-height="none" data-lineheight="['80','80','74','74']" data-responsive_offset="on"
+                  data-splitin="none" data-splitout="none"
+                  data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":350,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"nothing"}]'
+                  data-whitespace="nowrap" data-width="none" data-x="['center','center','center','center']"
+                  data-hoffset="['0','0','0',0']" data-y="['center','center','center','center']"
+                  data-voffset="['-110','-90','-90','-80']">
+                  Health, Sports, Fashion, Media & PR
+                </div>
+                <!-- LAYER NR. 3 -->
+                <!-- <div class="tp-caption rs-parallaxlevel-6" id="slide-1291-layer-3"
+                  data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+                  data-y="['center','center','center','center']" data-voffset="['120','120','120',100']"
+                  data-width="none" data-height="none" data-whitespace="nowrap"
+                  data-frames='[{"from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1200,"to":"o:1;","delay":1700,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"nothing"}]'
+                  data-splitin="none" data-splitout="none" data-responsive_offset="on" data-responsive="off"
+                  style="z-index: 8; white-space: nowrap;outline:none;"><a class="button medium full-rounded gray"
+                    href="#portfolio">READ MORE</a>
+                </div> -->
+              </li>
+              <!-- SLIDE 3 -->
+              <li data-index="rs-672" data-transition="fade" data-slotamount="default" data-easein="default"
+                data-easeout="default" data-masterspeed="default" data-thumb="images/new/back_priyanka_180x110.jpeg"
+                data-rotate="0" data-saveperformance="off" data-title="Value" data-description="">
+                <!-- MAIN IMAGE -->
+                <img src="images/new/back-priyanka.jpeg" alt="" data-bgposition="center center" data-bgfit="cover"
+                  data-bgrepeat="no-repeat" data-bgparallax="5" class="rev-slidebg" data-no-retina>
+                <!-- LAYERS -->
+                <!-- LAYER NR. 1 -->
+                <div class="tp-caption font-poppins font-black tp-resizeme rs-parallaxlevel-6" id="slide-898-layer-1"
+                  style="z-index: 8; white-space: nowrap;" data-fontsize="['70','70','62','50']" data-fontweight="600"
+                  data-height="none" data-lineheight="['80','80','74','64']" data-responsive_offset="on"
+                  data-splitin="none" data-splitout="none"
+                  data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":350,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"nothing"}]'
+                  data-whitespace="nowrap" data-width="none" data-x="['left','left','left','left']"
+                  data-hoffset="['40','40','40','20']" data-y="['center','center','center','center']"
+                  data-voffset="['-90','-80','-70','-60']">
+                  Creating
+                </div>
+                <!-- LAYER NR. 2 -->
+                <div class="tp-caption font-poppins font-black tp-resizeme rs-parallaxlevel-6" id="slide-898-layer-2"
+                  style="z-index: 8; white-space: nowrap;" data-fontsize="['90','70','60','50']" data-fontweight="300"
+                  data-height="none" data-lineheight="['110','90','80','70']" data-responsive_offset="on"
+                  data-splitin="none" data-splitout="none"
+                  data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":550,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"nothing"}]'
+                  data-whitespace="nowrap" data-width="none" data-x="['left','left','left','left']"
+                  data-hoffset="['40','40','40','20']" data-y="['center','center','center','center']"
+                  data-voffset="['0','0','0',0']">
+                  Impact
+                </div>
+                <!-- LAYER NR. 4 -->
+                <div class="tp-caption rs-parallaxlevel-6" id="slide-129-layer-5" data-x="['left','left','left','left']"
+                  data-hoffset="['40','40','40','20']" data-y="['center','center','center','center']"
+                  data-voffset="['150','150','150',145']" data-width="none" data-height="none" data-whitespace="nowrap"
+                  data-frames='[{"from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1200,"to":"o:1;","delay":1700,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"nothing"}]'
+                  data-splitin="none" data-splitout="none" data-responsive_offset="on" data-responsive="off"
+                  style="z-index: 8; white-space: nowrap;outline:none;"><a class="button medium full-rounded gray"
+                    href="#about">READ MORE</a>
+                </div>
+              </li>
+              <!-- SLIDE 4-->
+              <li data-index="rs-674" data-transition="fade" data-slotamount="default" data-easein="default"
+                data-easeout="default" data-masterspeed="default" data-thumb="images/new/2s_usp_180x110.jpg"
+                data-rotate="0" data-saveperformance="off" data-title="USP" data-description="">
+                <!-- MAIN IMAGE -->
+                <img src="images/new/2s_usp.jpg" alt="" data-bgposition="center center" data-bgfit="cover"
+                  data-bgrepeat="no-repeat" data-bgparallax="5" class="rev-slidebg" data-no-retina>
+                <!-- LAYERS -->
+                <!-- LAYER NR. 1 -->
+                <div class="tp-caption font-poppins font-black tp-resizeme rs-parallaxlevel-6 font-ts2"
+                  id="slide-8982-layer-1" style="z-index: 8; white-space: nowrap;" data-fontsize="['50','50','50','50']"
+                  data-fontweight="600" data-height="none" data-lineheight="['80','80','74','64']"
+                  data-responsive_offset="on" data-splitin="none" data-splitout="none"
+                  data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":350,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"nothing"}]'
+                  data-whitespace="nowrap" data-width="none" data-x="['right','right','right','right']"
+                  data-hoffset="['40','40','40','20']" data-y="['center','center','center','center']"
+                  data-voffset="['-90','-80','-70','-60']">
+                  Esma adds a value to the society
+                </div>
+                <!-- LAYER NR. 2 -->
+                <div class="tp-caption font-poppins font-black tp-resizeme rs-parallaxlevel-6 font-ts2 font-ts1"
+                  id="slide-8983-layer-2" style="z-index: 8; white-space: nowrap;" data-fontsize="['90','70','60','50']"
+                  data-fontweight="300" data-height="none" data-lineheight="['110','90','80','70']"
+                  data-responsive_offset="on" data-splitin="none" data-splitout="none"
+                  data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":550,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"nothing"}]'
+                  data-whitespace="nowrap" data-width="none" data-x="['right','right','right','right']"
+                  data-hoffset="['40','40','40','20']" data-y="['center','center','center','center']"
+                  data-voffset="['0','0','0',0']">
+                  with its event and media services
+                </div>
+                <!-- LAYER NR. 4 -->
+                <div class="tp-caption rs-parallaxlevel-6" id="slide-1291-layer-4"
+                  data-x="['right','right','right','right']" data-hoffset="['40','40','40','20']"
+                  data-y="['center','center','center','center']" data-voffset="['100','100','100',100']"
+                  data-width="none" data-height="none" data-whitespace="nowrap"
+                  data-frames='[{"from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1200,"to":"o:1;","delay":1700,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"nothing"}]'
+                  data-splitin="none" data-splitout="none" data-responsive_offset="on" data-responsive="off"
+                  style="z-index: 8; white-space: nowrap;outline:none;"><a class="button medium full-rounded gray"
+                    href="#events">Know How</a>
+                </div>
+              </li>
+            </ul>
+            <div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div>
+          </div>
+        </div>
+        <!-- END REVOLUTION SLIDER -->
+        <!-- SCROLL ICON -->
+        <div class="local-scroll-cont font-black">
+          <a href="#about" class="scroll-down smooth-scroll">
+            <div class="icon icon-arrows-down"></div>
+          </a>
+        </div>
+      </div>
+
+    </div>
+    <!--events -->
+    <section id="upcoming_events" class="py-5">
+      <div class="container">
+        <img src="images/new/State_level_yoga_tournament_2019_esma.jpeg" class="img-responsive"
+          alt="State_level_yoga_tournament_2019_esma">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-xs-12"><a class="button medium full-rounded gray button-full-center" href="https://rzp.io/l/Common-Category" target="_blank" rel="noopener" aria-label="register for common category">Register for Common Category</a></div>
+          <div class="col-lg-6 col-md-6 col-xs-12"><a class="button medium full-rounded gray button-full-center" href="https://rzp.io/l/Champion-of-Champion" target="_blank" rel="noopener" aria-label="register for Champion of Champion">Register for Champion of Champion</a></div>
+        </div>
+          
+      </div>
+    </section>
+    <div id="events" class="page-section pt-160-b-120-cont">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="mb-70 wow fadeIn">
+              <h2 class="section-title2 font-light text-center p-0">Events</h2>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-4 col-md-4">
+            <div class="mb-70 wow fadeIn">
+              <div class="fes17-title-cont">
+                <div class="fes17-box-icon">
+                  <img src="images/new/care.png" class="img-fluid" alt="">
+                </div>
+                <h3>Health Events</h3>
+              </div>
+              <div class="text-center">
+                Creating awareness about Health and hygiene is always a priority aim for Esma. She has conducted various
+                Health camps by collaborating with social work and NGOs which has benefited the people at large. Natural
+                Health, Yoga, fitness, etc. some of the interests.
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-4 col-md-4">
+            <div class="mb-70 wow fadeIn" data-wow-delay="200ms">
+              <div class="fes17-title-cont">
+                <div class="fes17-box-icon">
+                  <img src="images/new/trophy.png" class="img-fluid" alt="">
+                </div>
+                <h3>Sports Events</h3>
+              </div>
+              <div class="text-center">
+                Esma is keen in organizing sports tournaments in inter-school and state level. With a strong 10-year
+                experience as a leader in various sports activities, Esma envisions to take sports to every sector of
+                the society.
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-4 col-md-4">
+            <div class="mb-70 wow fadeIn" data-wow-delay="400ms">
+              <div class="fes17-title-cont">
+                <div class="fes17-box-icon">
+                  <img src="images/new/growth.png" class="img-fluid" alt="">
+                </div>
+                <h3>Environmental events</h3>
+              </div>
+              <div class="text-center">
+                Environmental protection and development is an integral part of the organization. She has created world
+                record events related to environment.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12 col-sm-6 col-md-6">
+            <div class="mb-70 wow fadeIn" data-wow-delay="600ms">
+              <div class="fes17-title-cont">
+                <div class="fes17-box-icon">
+                  <img src="images/new/dress.png" class="img-fluid" alt="">
+                </div>
+                <h3>Fashion events</h3>
+              </div>
+              <div class="text-center">
+                Maecenas luctus nisi in sem fermentum blandit. In nec elit sollicitudin, elementum odio et, dictum
+                purus. Proin malesuada quam a volutpat
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-6">
+            <div class="mb-70 wow fadeIn" data-wow-delay="800ms">
+              <div class="fes17-title-cont">
+                <div class="fes17-box-icon">
+                  <img src="images/new/teamwork.png" class="img-fluid" alt="">
+                </div>
+                <h3>Corporates</h3>
+              </div>
+              <div class="text-center">
+                Business wants to educate, reward, motivate, celebrate, mark key milestones, manage organisational
+                change or encourage collaboration. For this, Esma, closely works with companies to understand their
+                needs and organize accordingly.
+              </div>
+            </div>
           </div>
         </div>
       </div>
-      <hr class="bg-white">
-      <p class="animated fadeInDown slow delay-2s">Made with <i class="fa fa-heart"></i> by <a
-          href="https://www.tensketch.com/" target="_blank" rel="noopener"
-          aria-label="website designed by TenSketch">TenSketch</a></p>
     </div>
-  </section>
-  <script src="js/jquery-3.3.1.min.js"></script>
+    <div id="media_pr" class="page-section">
+      <div class="bg-esma mb-100">
+        <div class="container">
+          <!-- TABS NAV -->
+          <div class="row">
+            <div class="col-md-12">
+              <ul class="fes14-nav-tabs nav nav-tabs bootstrap-tabs">
+                <li class="active"><a href="#branding" class="fes14-nav-a" data-toggle="tab">
+                    <div class="tab-nav-icon icon icon-ecommerce-diamond"></div>
+                    <div class="tab-nav-text">Branding</div>
+                  </a></li>
+                <li><a href="#promotions" class="fes14-nav-a" data-toggle="tab">
+                    <div class="tab-nav-icon icon icon-ecommerce-graph-increase"></div>
+                    <div class="tab-nav-text">Promotions</div>
+                  </a></li>
+                <li><a href="#documentaries" class="fes14-nav-a" data-toggle="tab">
+                    <div class="tab-nav-icon fa fa-file-video-o"></div>
+                    <div class="tab-nav-text">Documentaries</div>
+                  </a></li>
+                <li><a href="#media" class="fes14-nav-a" data-toggle="tab">
+                    <div class="tab-nav-icon icon icon-basic-sheet-pen"></div>
+                    <div class="tab-nav-text">Media</div>
+                  </a></li>
+                <!-- <li><a href="#advertisement" class="fes14-nav-a" data-toggle="tab">
+                      <div class="tab-nav-icon fa fa-play-circle-o"></div>
+                      <div class="tab-nav-text">Advertisement</div>
+                    </a></li> -->
+              </ul>
+            </div>
+          </div>
+          <!-- TABS CONTENT & IMAGES -->
+          <div class="row">
+            <!-- TABS CONTENT -->
+            <div class="col-md-6">
+              <div class="fes14-tab-content tab-content">
+                <!-- TAB 1 -->
+                <div class="tab-pane fade in active" id="branding">
+                  <h1 class="fes14-tab-title"><strong>Branding</strong></h1>
+                  <h2 class="fes14-tab-sub-title"><strong>Identity for your business</strong></h2>
+                  <p class="fes14-tab-text mb-60">
+                    Uplifting your brand identity to a whole new level to give you a business circle that elevates and
+                    inspires to grow more. The Motive of branding is to improve visibility. Esma converts your dreams
+                    into a solid reality that builds exceptional services and products.
+                  </p>
+                </div>
+                <!-- TAB 2 -->
+                <div class="tab-pane fade" id="promotions">
+                  <h1 class="fes14-tab-title"><strong>Promotions</strong></h1>
+                  <h2 class="fes14-tab-sub-title"><strong>through strong networking</strong></h2>
+                  <p class="fes14-tab-text mb-60">
+                    The wide range of network with media companies and social media giants makes Esma one of the highly
+                    preferred media partner for the clients. Deep keyword analysis and thorough documentation are the
+                    unique approaches to promotions. Clients see a drastic growth in sales, after Esma's consulting.
+                  </p>
+                </div>
+                <!-- TAB 3 -->
+                <div class="tab-pane fade" id="documentaries">
+                  <h1 class="fes14-tab-title"><strong>Documentaries</strong></h1>
+                  <h2 class="fes14-tab-sub-title"><strong>of Industrial growth</strong></h2>
+                  <p class="fes14-tab-text mb-60">
+                    With more than 5 years of experience creating documentaries, Esma plays a vital role in shaping some
+                    of the leading industries and corporates. The Documentaries gives a feeling of pride to the owner.
+                  </p>
+                </div>
+                <!-- TAB 4 -->
+                <div class="tab-pane fade" id="media">
+                  <h1 class="fes14-tab-title"><strong>Media</strong></h1>
+                  <h2 class="fes14-tab-sub-title"><strong>and PR</strong></h2>
+                  <p class="fes14-tab-text mb-60">
+                    The powerful content development team works 24x7 in developing news content for your brand and
+                    publishes it across the leading channels. A careful analysis of the target audience is done to
+                    understand where, when and how advertising has to be done.
+                  </p>
+                </div>
+                <!-- TAB 5 -->
+                <!-- <div class="tab-pane fade" id="advertisement">
+                    <h1 class="fes14-tab-title"><strong>Advertisement</strong></h1>
+                    <h2 class="fes14-tab-sub-title"><strong>apps & web sites development</strong></h2>
+                    <p class="fes14-tab-text mb-60">
+                      Nulla sed vehicula leo. Nam volutpat dapibus nisi sed ultrices. Proin ullamcorper eget ex a
+                      cursus. In sed turpis at orci laoreet ultrices et vitae urna.
+                    </p>
+                    <div class="fes12-btn-cont mt-30">
+                      <a class="button medium rounded gray"
+                        href="">PURCHASE NOW</a>
+                    </div>
+                  </div> -->
+              </div>
+            </div>
+            <!-- IMAGES -->
+            <div class="col-md-6 fes9-img-cont clearfix">
+              <div class="fes16-img-center clearfix">
+                <img src="images/new/clapper-board-152088.png" alt="img" class="wow fadeInUp" data-wow-delay="150ms"
+                  data-wow-duration="1s">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="about" class="page-section pt-100-cont">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <div>
+              <h2 class="au3-title section-title2 font-light">About</h2>
+            </div>
+            <div class="au3-text">The Esma Events was founded in May 2018 Priyanks Easwaran with a 2 year strong
+              experience in events administration, media and designing. The ESMA Events & Services is about “KLEPT”-
+              Kairos, Logo’s, Ethos, Pathos and Topos based Success. The Esma's USP lies in its inventiveness and
+              execution to establish noteworthy Brand Identity and impression for our customers.
+              <h3 class="au3-title section-title2 font-light">Vision</h3>
+              To create a strong impact in the society by adding value through events and media.</div>
+            <!-- <div class="au3-btn-cont">
+                  <a class="button medium rounded gray" href="about-us.html">VIEW ALL TEAM</a>
+                </div> -->
+          </div>
+          <div class="col-md-offset-1 col-md-8 text-center wow fadeInUp" data-wow-duration="1s">
+            <img src="images/new/about.jpeg" alt="Priyanka_The Esma Events with Kamal Hassan">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="#strength" class="page-section p-80-cont">
+      <div class="container">
+        <h2 class="section-title2 font-light text-center">Partners</h2>
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 client2-item">
+            <a href="https://www.decathlon.in/c/300-decathlon-teynampet" target="_blank" rel="noopener"><img
+                alt="client" src="images/new/Decalthon.png"></a>
+          </div>
+          <div class="col-xs-12 col-sm-3 client2-item">
+            <a href="https://www.facebook.com/parivutv/" target="_blank" rel="noopener"><img alt="client"
+                src="images/new/parivu.png"></a>
+          </div>
+          <div class="col-xs-12 col-sm-3 client2-item">
+            <a href="https://www.tensketch.com/" target="_blank" rel="noopener"><img alt="client"
+                src="images/new/TenSketch.png"></a>
+          </div>
+          <div class="col-xs-12 col-sm-3 client2-item">
+            <img alt="client" src="images/new/ybl.png">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- VIDEO ADS 2 -->
+    <!-- <div class="page-section bg-esma">
+        <div class="container">
+          <div class="video-ads-text-cont video-ads-text-black clearfix">
+            <span class="video-ads-text">First Sports Event</span>
+            <span class="video-ads-a">
+              <a class="popup-youtube mfp-plugin" href="https://youtu.be/o0uvbMtyKoU">
+                <span class="icon icon-music-play-button"></span>
+              </a>
+            </span>
+            <span class="video-ads-text">Inter-School Badminton tournament - 2019</span>
+          </div>
+        </div>
+      </div> -->
+    <!-- FOOTER 4 BLACK WITH TWITTER FEED -->
+    <footer id="contact" class="page-section pt-95 pb-50 footer2-black">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-sm-6 widget">
+            <div class="logo-footer-cont">
+              <a href="index.html">
+                <img class="logo-footer" src="images/Esma_logo.webp" alt="logo">
+              </a>
+            </div>
+            <!-- <div class="footer2-text-cont">
+                <address>
+                  555 California str, Suite 100<br>
+                  San&nbsp;Francisco, CA 94107
+                </address>
+              </div> -->
+            <div class="footer2-text-cont">
+              <a href="tel:+918015480324">91-8015480324</a>
+              <br>
+              <a class="a-text" href="mailto:team@theesma.com">team@theesma.com</a>
+            </div>
+            <!-- <div class="footer2-text-cont a-text-main-cont">
+                <a class="popup-gmaps mfp-plugin font-poppins"
+                  href="https://maps.google.com/maps?q=555+California+Street+Building,+California+Street,+San+Francisco,&amp;hl=en&amp;t=v&amp;hnear=555+California+Street+Building,+California+Street,+San+Francisco">Open
+                  Map</a>
+              </div> -->
+          </div>
+          <div class="col-md-6 col-sm-6 widget">
+            <form action="">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter your name" name="Name" required=""
+                  aria-label="Name">
+              </div>
+              <div class="form-group">
+                <label for="contact">Contact #</label>
+                <input type="tel" class="form-control" id="contact" placeholder="Enter your contact no."
+                  name="Contact #" required="" aria-label="Contact #">
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea class="form-control" name="message" id="message" placeholder="Enter your message" rows="3"
+                  required="" aria-label="message" spellcheck="false"></textarea>
+              </div>
+              <button class="btn btn-primary" type="button">Submit</button>
+            </form>
+            <!-- <h4>Navigate</h4>
+              <ul class="links-list a-text-cont a-text-main-cont font-poppins">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shortcodes.html">Shortcodes</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="index-portfolio.html">Portfolio</a></li>
+                <li><a href="index-blog.html">Blog</a></li>
+                <li><a href="index-shop.html">Shop</a></li>
+                <li><a href="intro.html">Pages</a></li>
+              </ul> -->
+          </div>
+          <!-- <div class="col-md-3 col-sm-3 widget">
+              <h4>Insights</h4>
+              <ul class="links-list a-text-cont font-poppins">
+                <li><a href="about-us.html">Company</a></li>
+                <li><a href="services.html">What We Do</a></li>
+                <li><a href="https://help.market.envato.com/hc/en-us">Help Center</a></li>
+                <li><a href="http://themeforest.net/legal/market">Terms of Service</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </div> -->
+          <!-- TWITTER FEEDS -->
+          <!-- <div class="col-md-4 col-sm-4 widget">
+              <h4>Recent Tweets</h4>
+              <div id="twitter-feeds"></div>
+            </div> -->
+        </div>
+        <!-- SUB FOOTER -->
+        <div class="footer2-copy-cont clearfix">
+          <!-- Social Links -->
+          <div class="footer2-soc-a right">
+            <a href="https://www.facebook.com/theesmaevents/" title="Facebook" target="_blank"><i
+                class="fa fa-facebook"></i></a>
+            <!-- <a href="" title="Twitter" target="_blank"><i
+                  class="fa fa-twitter"></i></a>
+              <a href="https://www.behance.net/abcgomel" title="Behance" target="_blank"><i
+                  class="fa fa-behance"></i></a> -->
+            <a href="https://www.instagram.com/theesma_events/" title="instagram" target="_blank"><i
+                class="fa fa-instagram"></i></a>
+            <a href="https://www.youtube.com/channel/UCx6PZi3Y0JrRNEOJPUbUqxw" title="YouTube" target="_blank"><i
+                class="fa fa-youtube"></i></a>
+          </div>
+          <!-- Copyright -->
+          <div class="left">
+            <a href="" target="_blank">&copy;The Esma Events</a><br><a href="https://www.tensketch.com/">Made
+              with&nbsp;<i class="fa fa-heart" aria-hidden="true"></i>&nbsp;by TenSketch</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- BACK TO TOP -->
+    <p id="back-top">
+      <a href="#top" title="Back to Top"><span class="icon icon-arrows-up"></span></a>
+    </p>
+  </div><!-- End BG -->
+  </div><!-- End wrap -->
+  <!-- JS begin -->
+  <!-- jQuery  -->
+  <script src="js/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
   <script src="js/bootstrap.min.js"></script>
-  <script src="js/popper.min.js"></script>
-  <script src="js/bootstrap-datepicker.min.js"></script>
+  <!-- MAGNIFIC POPUP -->
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <!-- PORTFOLIO SCRIPTS -->
+  <script src="js/isotope.pkgd.min.js"></script>
+  <script src="js/imagesloaded.pkgd.min.js"></script>
+  <script src="js/masonry.pkgd.min.js"></script>
+  <!-- COUNTER -->
+  <script src="js/jquery.countTo.js"></script>
+  <!-- APPEAR -->
+  <script src="js/jquery.appear.js"></script>
+  <!-- OWL CAROUSEL -->
+  <script src="js/owl.carousel.min.js"></script>
+  <!-- JQUERY TWEETS -->
+  <script src="js/twitter/jquery.tweet.js"></script>
+  <!-- MAIN SCRIPT -->
+  <script src="js/main.js"></script>
+  <!-- REVOSLIDER SCRIPTS  -->
+  <script src="revo-slider/js/jquery.themepunch.tools.min.js">
+  </script>
+  <script src="revo-slider/js/jquery.themepunch.revolution.min.js">
+  </script>
+  <!-- SLIDER REVOLUTION 5.0 EXTENSIONS  
+      (Load Extensions only on Local File Systems ! 
+      The following part can be removed on Server for On Demand Loading) -->
+  <script src="revo-slider/js/extensions/revolution.extension.actions.min.js"></script>
+  <script src="revo-slider/js/extensions/revolution.extension.carousel.min.js"></script>
+  <script src="revo-slider/js/extensions/revolution.extension.kenburn.min.js"></script>
+  <script src="revo-slider/js/extensions/revolution.extension.layeranimation.min.js">
+  </script>
+  
+  <script src="revo-slider/js/extensions/revolution.extension.navigation.min.js"></script>
+  <script src="revo-slider/js/extensions/revolution.extension.parallax.min.js"></script>
+  <script src="revo-slider/js/extensions/revolution.extension.slideanims.min.js"></script>
+  
+  <!-- SLIDER REVOLUTION INITIALIZATION  -->
+  <script>
+    jQuery(document).ready(function () {
+      jQuery("#rev_slider_202_1").show().revolution({
+        sliderType: "standard",
+        jsFileLocation: "revo-slider/js/",
+        sliderLayout: "fullscreen",
+        dottedOverlay: "none",
+        delay: 9000,
+        navigation: {
+          keyboardNavigation: "off",
+          keyboard_direction: "horizontal",
+          mouseScrollNavigation: "off",
+          onHoverStop: "off",
+          touch: {
+            touchenabled: "on",
+            swipe_threshold: 75,
+            swipe_min_touches: 50,
+            swipe_direction: "horizontal",
+            drag_block_vertical: false
+          },
+          arrows: {
+            style: "hermes",
+            enable: true,
+            hide_onmobile: true,
+            hide_onleave: true,
+            tmp: '<div class="tp-arr-allwrapper">	<div class="tp-arr-imgholder"></div>	<div class="tp-arr-titleholder">{{title}}</div>	</div>',
+            left: {
+              h_align: "left",
+              v_align: "center",
+              h_offset: 0,
+              v_offset: 0
+            },
+            right: {
+              h_align: "right",
+              v_align: "center",
+              h_offset: 0,
+              v_offset: 0
+            }
+          },
+        },
+        responsiveLevels: [1240, 1024, 778, 480],
+        visibilityLevels: [1240, 1024, 778, 480],
+        gridwidth: [1240, 1024, 778, 480],
+        gridheight: [868, 768, 960, 720],
+        lazyType: "none",
+        parallax: {
+          type: "off",
+          origo: "slidercenter",
+          speed: 1000,
+          levels: [0],
+          type: "scroll",
+          disable_onmobile: "on"
+        },
+        shadow: 0,
+        spinner: "spinner2",
+        stopLoop: "on",
+        stopAfterLoops: 0,
+        stopAtSlide: 1,
+        shuffle: "off",
+        autoHeight: "off",
+        fullScreenAutoWidth: "off",
+        fullScreenAlignForce: "off",
+        fullScreenOffsetContainer: "",
+        fullScreenOffset: "",
+        disableProgressBar: "on",
+        hideThumbsOnMobile: "off",
+        hideSliderAtLimit: 0,
+        hideCaptionAtLimit: 0,
+        hideAllCaptionAtLilmit: 0,
+        debugMode: false,
+        fallbacks: {
+          simplifyAll: "off",
+          nextSlideOnWindowFocus: "off",
+          disableFocusListener: false,
+        }
+      });
+    }); /*ready*/
+  </script>
+  <!-- JS end -->
 </body>
+
 </html>
