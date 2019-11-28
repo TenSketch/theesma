@@ -6697,6 +6697,7 @@ select.input-border {
   box-shadow: 0px 0px 12px 1px rgba(0, 0, 0, 0.75);
   margin-bottom: 2rem;
 }
+
 .bg-gray-light {
   background-color: #f5f5f5;
 }
@@ -13740,6 +13741,7 @@ h2.portfolio-timeline-title {
   display: none;
   position: relative;
   -webkit-transform: translate3d(0px, 0px, 0px);
+  transform: translate3d(0px, 0px, 0px);
 }
 .owl-carousel .owl-wrapper-outer {
   overflow: hidden;
@@ -13776,12 +13778,14 @@ h2.portfolio-timeline-title {
 /* fix */
 .owl-carousel .owl-wrapper,
 .owl-carousel .owl-item {
+  backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
   -moz-backface-visibility: hidden;
   -ms-backface-visibility: hidden;
   -webkit-transform: translate3d(0, 0, 0);
   -moz-transform: translate3d(0, 0, 0);
   -ms-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
 }
 /******************************************* 
  *  Owl Carousel CSS3 Transitions 
@@ -14327,6 +14331,7 @@ section:hover .small-item-carousel .owl-next {
   position: fixed;
   outline: none !important;
   -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 .mfp-container {
   text-align: center;
@@ -14641,9 +14646,7 @@ screen and (max-height: 300px) {
   .mfp-img-mobile img.mfp-img {
     padding: 0;
   }
-  .mfp-img-mobile .mfp-figure {
-    /* The shadow behind the image */
-  }
+  
   .mfp-img-mobile .mfp-figure:after {
     top: 0;
     bottom: 0;
@@ -15055,13 +15058,7 @@ screen and (max-height: 300px) {
   #header-left #main-menu .navbar .nav li a {
     font-size: 13px;
   }
-  #header-left #main-menu .navbar .nav .open-sub {
-    /* position: absolute;
-    bottom: 0;
-    left: 0;
-    top: 0;
-    width: 100%; */
-  }
+
   #header-left #main-menu .sub,
   #header-left #main-menu .parent .sub,
   #header-left #main-menu .parent:hover .sub {
@@ -15241,9 +15238,7 @@ screen and (max-height: 300px) {
 .tab-nav-opacity>li>a:hover {
   border-color: #eee #eee rgba(255, 255, 255, .9);
 }
-.tabs-3 .tab-nav-opacity>li>a {
-  /* font-weight: 600; */
-}
+
 .tab-content-border {
   border: 1px solid #ddd;
   border-top: none;
@@ -15281,6 +15276,8 @@ screen and (max-height: 300px) {
   background-color: #fff;
   z-index: 2;
   /* Force Hardware Acceleration in WebKit */
+  backface-visibility: hidden;
+  transform: translateZ(0);
   -webkit-transform: translateZ(0);
   -webkit-backface-visibility: hidden;
   -webkit-transition-property: -webkit-transform;
@@ -15437,6 +15434,7 @@ header.is-fixed {
   overflow-y: auto;
   /* Force Hardware Acceleration in WebKit */
   -webkit-transform: translateZ(0);
+  backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
   -webkit-transition: -webkit-transform .4s 0s, visibility 0s .4s;
   -moz-transition: -moz-transform .4s 0s, visibility 0s .4s;
@@ -15815,7 +15813,7 @@ ul#flickr-feeds {
 }
 ul#flickr-feeds li {
   display: inline-block;
-  float: left;
+  
 }
 ul#flickr-feeds li a {
   display: block;
