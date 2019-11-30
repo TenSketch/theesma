@@ -1,0 +1,77 @@
+<div class="container">
+        
+          
+          
+            <h3 class="text-center">Resgistration form</h3>
+            <form id="registration-form" action="javascript:;" onsubmit="insert_value()">
+                    <div class="form-group">
+                            <label for="inputGender">Choose Category</label>
+                            <select class="form-control" name="gender" id="gender" aria-label="gender">
+                              <option>Common Category</option>
+                              <option>Champion of Champion</option>
+                            </select>
+                          </div>
+
+                          <div class="form-group">
+                                <label for="inputGender">Age Category</label>
+                                <select class="form-control" name="gender" id="gender" aria-label="gender">
+                                  <option>Common Category</option>
+                                  <option>Champion of Champion</option>
+                                </select>
+                              </div>
+              <div class="form-group">
+                <label for="inputFullName">Full name*</label>
+                <input type="text" class="form-control" name="full_name" id="full_name"
+                  placeholder="Enter the player's full name" autocomplete="off" required aria-label="Full name">
+              </div>
+              <div class="form-group">
+                <label for="inputGender">Gender</label>
+                <select class="form-control" name="gender" id="gender" aria-label="gender">
+                  <option>Girl</option>
+                  <option>Boy</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="inputDateOfBirth">Date of birth [DD/MM/YY]*</label>
+                <input type='text' class="form-control" name="DOB" id="datepicker" placeholder='Select Date' required
+                  aria-label="DOB">
+              </div>
+              <div class="form-group">
+                <label for="inputContactNo">Contact #*</label>
+                <input type="tel" minlength="10" maxlength="10" class="form-control" name="contact_no" id="contact_no"
+                  placeholder="Enter the player's contact no" autocomplete="off" required aria-label="contact_no">
+              </div>
+              <div class="form-group">
+                <label for="inputEmailAddress">Email address</label>
+                <input type="email" class="form-control" name="e_mail_address" id="e_mail_address"
+                  placeholder="Enter the player's email address" autocomplete="off" aria-label="e_mail_address">
+              </div>
+              <div class="form-group">
+                <label for="inputCurrentClass">Grade</label>
+                <input type="text" class="form-control" name="studying_class" id="studying_class"
+                  placeholder="Enter the player's studying class [eg. 3rd Grade]" autocomplete="off"
+                  aria-label="Grade-Studying class">
+              </div>
+              <div class="form-group">
+                <label for="inputSchoolName">School*</label>
+                <input type="text" class="form-control" name="school_name" id="school_name"
+                  placeholder="Enter the player's studying school name" autocomplete="off" required
+                  aria-label="school_name">
+              </div>
+              <div class="form-group">
+                <label for="inputGender">Category*</label>
+                <select class="form-control" name="category" id="category" required aria-label="category">
+                  <option>U10-Boys & Girls Singles- born on or before 2009</option>
+                  <option>U13-Boys & Girls Singles- born on or before 2007</option>
+                  <option>U15-Boys & Girls Singles- born on or before 2005</option>
+                  <option>U17-Boys & Girls Singles- born on or before 2003</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <input type="submit" id="submit-form" class="form-control btn btn-outline-primary" value="REGISTER NOW"
+                  aria-label="submit-form button">
+              </div>
+            </form>
+          
+        
+      </div>
