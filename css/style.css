@@ -6552,12 +6552,7 @@ select.input-border {
     url('fonts/impactreg.ttf') format('truetype');
   /* Safari, Android, iOS */
 }
-@font-face {
-  font-family: 'impactreg';
-  src: url('fonts/impactreg.ttf')format('truetype'),
-  url('fonts/impactreg.woff') format('woff'),
-  url('fonts/impactreg.ttf') format('truetype');
-}
+
 .s1-font {
   font-size: 3rem !important;
   font-weight: bold !important;
@@ -6566,9 +6561,7 @@ select.input-border {
   font-size: 6rem !important;
   font-weight: bold !important;
 }
-.tp-caption {
-  font-family: 'impactreg' !important;
-}
+
 .s3-font {
   margin: 0rem 0.5rem 0rem 0rem !important;
 }
