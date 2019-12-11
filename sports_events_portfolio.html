@@ -33,936 +33,931 @@
   <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="msapplication-TileImage" content="images/favicons/ms-icon-144x144.png">
   <meta name="theme-color" content="#ffffff">
-  <!-- CSS -->
-  <!--  GOOGLE FONT -->
   <link href="https://fonts.googleapis.com/css?family=Poppins:500,600,300%7COpen+Sans:400,300,700" rel="stylesheet"
     type="text/css">
-  <!-- REVOSLIDER CSS SETTINGS -->
-  <!-- REVOLUTION STYLE SHEETS -->
-  <link href="revo-slider/css/settings.css" rel="stylesheet" type="text/css">
-  <!-- REVOLUTION NAVIGATION STYLES -->
-  <link rel="stylesheet" type="text/css" href="revo-slider/css/navigation-skins/hermes-custom.css">
-  <!--  BOOTSTRAP -->
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <!-- ICONS ELEGANT FONT & FONT AWESOME & LINEA ICONS  -->
   <link rel="stylesheet" href="css/icons-fonts.css">
-  <!--  CSS THEME -->
   <link rel="stylesheet" href="css/style.css">
-  <!-- ANIMATE -->
   <link rel="stylesheet" href="css/animate.min.css">
   <link rel="stylesheet" href="fancybox-2.1.7/jquery.fancybox.min.css">
 </head>
 <body>
   <!-- LOADER -->
   <div id="loader-overflow">
-    <div id="loader3" class="loader-cont">Please enable JS</div>
+    <div class="loader-cont">
+      <div class="loader">
+        <div class="loader-inner pacman">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+    </div>
   </div>
-  <div id="wrap" class="boxed ">
-    <div class="grey-bg">
-      <!-- HEADER 1 FONT WHITE TRANSPARENT -->
-      <div class="header-black-bg"></div> <!-- NEED FOR TRANSPARENT HEADER ON MOBILE -->
-      <header id="nav" class="header header-1 header-black affix-on-mobile">
-        <div class="header-wrapper">
-          <div class="container-m-30 clearfix">
-            <div class="logo-row">
-              <!-- LOGO -->
-              <div class="logo-container-2">
-                <div class="logo-2">
-                  <a href="index.html" class="clearfix">
-                    <img src="images/Esma_logo.webp" class="logo-img" alt="Logo">
-                  </a>
-                </div>
-              </div>
-              <!-- BUTTON -->
-              <div class="menu-btn-respons-container">
-                <button id="menu-btn" type="button" class="navbar-toggle btn-navbar collapsed" data-toggle="collapse"
-                  data-target="#main-menu .navbar-collapse">
-                  <span aria-hidden="true" class="icon_menu hamb-mob-icon"></span>
-                </button>
-              </div>
+  <!-- HEADER 1 FONT WHITE TRANSPARENT -->
+  <div class="header-black-bg"></div> <!-- NEED FOR TRANSPARENT HEADER ON MOBILE -->
+  <header id="nav" class="header header-1 header-black affix-on-mobile">
+    <div class="header-wrapper">
+      <div class="container-m-30 clearfix">
+        <div class="logo-row">
+          <!-- LOGO -->
+          <div class="logo-container-2">
+            <div class="logo-2">
+              <a href="index.html" aria-label="home page link of the Esma Events in navbar logo" class="clearfix">
+                <img src="images/Esma_logo-tagline-new.png" class="logo-img" alt="Esma Events Logo">
+              </a>
             </div>
           </div>
-          <!-- MAIN MENU CONTAINER -->
-          <div class="main-menu-container">
-            <div class="container-m-30 clearfix">
-              <!-- MAIN MENU -->
-              <div id="main-menu">
-                <div class="navbar navbar-default" role="navigation">
-                  <!-- MAIN MENU LIST -->
-                  <nav class="collapse collapsing navbar-collapse right-1024">
-                    <ul class="nav navbar-nav">
-                      <!-- MENU ITEM -->
-                      <li class="parent">
-                        <a href="index.html#events">
-                          <div class="main-menu-title">Events</div>
-                        </a>
-                      </li>
-                      <!-- MENU ITEM -->
-                      <li class="parent">
-                        <a href="index.html#media_pr">
-                          <div class="main-menu-title">Media & PR</div>
-                        </a>
-                      </li>
-                      <li class="parent">
-                        <a href="index.html#about">
-                          <div class="main-menu-title">About</div>
-                        </a>
-                      </li>
-                      <li class="parent">
-                        <a href="index.html#portfolio">
-                          <div class="main-menu-title">Portfolio</div>
-                        </a>
-                      </li>
-                      <li class="parent">
-                        <a href="#contact">
-                          <div class="main-menu-title">Contact</div>
-                        </a>
-                      </li>
-                    </ul>
-                  </nav>
-                </div>
-              </div>
-              <!-- END main-menu -->
-            </div>
-            <!-- END container-m-30 -->
+          <!-- BUTTON -->
+          <div class="menu-btn-respons-container">
+            <button id="menu-btn" type="button" class="navbar-toggle btn-navbar collapsed" data-toggle="collapse"
+              data-target="#main-menu .navbar-collapse">
+              <span aria-hidden="true" class="icon_menu hamb-mob-icon"></span>
+            </button>
           </div>
         </div>
-        <!-- END header-wrapper -->
-      </header>
-      <!-- PAGE TITLE LARGE 3 IMG -->
-      <div class="page-title-large3-cont bg-gray bg-badminton">
-        <div class="overlay">
-          <div class="container">
-            <div class="page-title-large3-text-cont">
-              <div>
-                <h1 class="page-title3 font-white">Inter-School badminton tournament-2019</h1>
-              </div>
+      </div>
+      <div class="main-menu-container">
+        <div class="container-m-30 clearfix">
+          <div id="main-menu">
+            <div class="navbar navbar-default" role="navigation">
+              <nav class="collapse collapsing navbar-collapse right-1024">
+                <ul class="nav navbar-nav">
+                  <li class="parent">
+                    <a href="#" class="open-sub">
+                      <div class="main-menu-title">Portfolio</div>
+                    </a>
+                    <ul class="sub">
+                      <li class="parent">
+                        <a href="#" class="open-sub">Events</a>
+                        <ul class="sub">
+                          <li><a href="environment_events_portfolio.html"
+                              aria-label="environment_events_portfolio page_of_Esma_Events">Environment</a></li>
+                          <li><a href="health_events_portfolio.html"
+                              aria-label="health_events_portfolio page_of_Esma_Events">Health</a></li>
+                          <li><a href="sports_events_portfolio.html"
+                              aria-label="sports_events_portfolio page_of_Esma_Events">Sports</a></li>
+                          <li><a href="entertainment_and_arts_event_portfolio.html"
+                              aria-label="entertainment_and_arts_event_portfolio page_of_Esma_Events">Entertainment &
+                              Arts</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="parent">
+                    <a href="index.html#events">
+                      <div class="main-menu-title">Events</div>
+                    </a>
+                  </li>
+                  <li class="parent">
+                    <a href="index.html#media_pr">
+                      <div class="main-menu-title">Media & PR</div>
+                    </a>
+                  </li>
+                  <li class="parent">
+                    <a href="about_us.html">
+                      <div class="main-menu-title">About</div>
+                    </a>
+                  </li>
+                  <li class="parent">
+                    <a href="#contact">
+                      <div class="main-menu-title">Contact</div>
+                    </a>
+                  </li>
+                </ul>
+              </nav>
             </div>
           </div>
         </div>
       </div>
-    </div><!-- End BG -->
-    <!-- CONTENT -->
-    <div class="page-section p-140-cont pb-50">
+    </div>
+  </header>
+  <div class="page-title-large3-cont bg-badminton">
+    <div class="bg1">
       <div class="container">
-        <!-- PROJECT DETAILS & TEXT -->
-        <div class="row">
-          <!-- PROJECT DETAILS -->
-          <div class="col-md-3 mb-50">
-            <!-- PROJECT DETAILS -->
-            <div class="port-detail-cont mb-30">
-              <div class="port-detail font-poppins mb-20">
-                <p>
-                  <strong class="font-black">Venue:</strong>
-                  Sathish Sivalingam Indoor stadium, Velammal Vidyalaya (Annexure) School
-                </p>
-                <p>
-                  <strong class="font-black">Date:</strong>
-                  24th October, 2019
-                </p>
-                <p>
-                  <strong class="font-black">Role:</strong>
-                  Event Organizer
-                </p>
-                <p>
-                  <strong class="font-black">Links:</strong>
-                  <a href="http://vtv24x7.com/inter-school-badminton-competition-held-by-theesma-events-on-24th-october-2019/"
-                    target="_blank">news</a>
-                </p>
-              </div>
-            </div>
-          </div>
-          <!-- TEXT -->
-          <div class="col-md-9 mb-50">
-            <p class="text-highlight mb-30">Theesma’s Inter-School badminton competition held at Sathish Sivalingam
-              Indoor stadium, Velammal Vidyalaya (Annexure) School on 24th October 2019 was a grand success with more
-              than 150 participants in 4 categories- Under 10, 13, 15 and 17 singles – boys and girls.</p>
-            <ul>
-              <li>In Under 10 girls and boy's category, the Winners are Harini Raja from Kola Perumal Chetty Vaishnav
-                Senior Secondary School and Srinivas Raghav from Lalaji Memorial Omega International School (LMOIS)
-                respectively.</li>
-              <li>In Under 13 girls and boy's category, the Winners are Rubika from Chennai and Lakshan from Jawahar
-                Hr Sec School, Neyveli respectively.</li>
-              <li>In Under 15 girls and boy’s category, the Winners are Rubika and Jai Akash from Chennai
-                respectively.</li>
-              <li>In Under 17 girls and boy’s category, the Winners are Kaviya from Bosco Academy and Tamil Arasan
-                from Velammal West school.</li>
-              <li>In girl’s category, the runners are Under 10, 13, 15 and 17 are Tanniyaa, Anbu Jenitha, Sree
-                Meenakshi and Lavanya respectively.</li>
-              <li>In boy’s category, the runners are Under 10, 13, 15 and 17 are Suhaash, Akash, Lakshan and Jai Akash
-                respectively.</li>
-            </ul>
-            <p>The winners and runners were honoured with cash prize and trophies by the CEO of Theesma Events, Miss
-              Priyanka and all the other participants were awarded certificates.</p>
-            <h4 class="font-open-sans"><strong>Team Theesma</strong></h4>
-            <p>Theesma takes immense pleasure in appreciating our IT partner Mr Balachandiran from TenSketch. Special
-              mention twin brother's Madhan and Sudhan for being the pillar of theesma and extending their time,
-              energy and work for the tournament. Also to note the contributions made by theesma’s friends Natparasan
-              and Vibin for being throughout the event.</p>
-            <h4 class="font-open-sans"><strong>Sponsors</strong></h4>
-            <p>Warm gratitude to the event’s major sponsor, Mr Vijaykumar from Cuddalore who helped us without any
-              expectation in return and a cool thanks to Mr Ismail for quenching the player’s thirst by sponsoring
-              water bottles.</p>
+        <div class="page-title-large3-text-cont">
+          <div>
+            <h1 class="page-title3 font-white">Inter-School badminton tournament-2019</h1>
           </div>
         </div>
-        <!-- IMG & DESCRIPTION -->
-        <div class="row">
-          <!-- ITEMS GRID -->
-          <ul class="port-grid masonry clearfix" id="items-grid">
-            <!-- Item big -->
-            <li class="port-item mix design lightbox-item">
-              <a href="images/Inter_School_Badminton_tournament_2019/17_Inter_School_Badminton_tournament_2019.jpg"
-                class="fancybox" aria-label="badminton_tournament_2019_pics" rel="group">
-                <div class="port-img-overlay">
-                  <img class="port-main-img"
-                    src="images/Inter_School_Badminton_tournament_2019/17_Inter_School_Badminton_tournament_2019.jpg"
-                    alt="img">
-                </div>
-                <div class="port-overlay-cont">
-                  <div class="port-btn-cont">
-                    <div aria-hidden="true" class="icon_search"></div>
-                  </div>
-                </div>
-              </a>
-            </li>
-            <!-- Item -->
-            <li class="port-item mix design lightbox-item">
-              <a href="images/Inter_School_Badminton_tournament_2019/7_Inter_School_Badminton_tournament_2019.jpg"
-                class="fancybox" aria-label="badminton_tournament_2019_pics" rel="group">
-                <div class="port-img-overlay">
-                  <img class="port-main-img"
-                    src="images/Inter_School_Badminton_tournament_2019/7_Inter_School_Badminton_tournament_2019.jpg"
-                    alt="img">
-                </div>
-                <div class="port-overlay-cont">
-                  <div class="port-btn-cont">
-                    <div aria-hidden="true" class="icon_search"></div>
-                  </div>
-                </div>
-              </a>
-            </li>
-            <!-- Item big -->
-            <li class="port-item mix design lightbox-item">
-              <a href="images/Inter_School_Badminton_tournament_2019/3_Inter_School_Badminton_tournament_2019.jpg"
-                class="fancybox" aria-label="badminton_tournament_2019_pics" rel="group">
-                <div class="port-img-overlay">
-                  <img class="port-main-img"
-                    src="images/Inter_School_Badminton_tournament_2019/3_Inter_School_Badminton_tournament_2019.jpg"
-                    alt="img">
-                </div>
-                <div class="port-overlay-cont">
-                  <div class="port-btn-cont">
-                    <div aria-hidden="true" class="icon_search"></div>
-                  </div>
-                </div>
-              </a>
-            </li>
-            <!-- Item -->
-            <li class="port-item mix design lightbox-item">
-              <a href="images/Inter_School_Badminton_tournament_2019/4_Inter_School_Badminton_tournament_2019.jpg"
-                class="fancybox" aria-label="badminton_tournament_2019_pics" rel="group">
-                <div class="port-img-overlay">
-                  <img class="port-main-img"
-                    src="images/Inter_School_Badminton_tournament_2019/4_Inter_School_Badminton_tournament_2019.jpg"
-                    alt="img">
-                </div>
-                <div class="port-overlay-cont">
-                  <div class="port-btn-cont">
-                    <div aria-hidden="true" class="icon_search"></div>
-                  </div>
-                </div>
-              </a>
-            </li>
-            <!-- Item -->
-            <li class="port-item mix design lightbox-item">
-              <a href="images/Inter_School_Badminton_tournament_2019/5_Inter_School_Badminton_tournament_2019.jpg"
-                class="fancybox" aria-label="badminton_tournament_2019_pics" rel="group">
-                <div class="port-img-overlay">
-                  <img class="port-main-img"
-                    src="images/Inter_School_Badminton_tournament_2019/5_Inter_School_Badminton_tournament_2019.jpg"
-                    alt="img">
-                </div>
-                <div class="port-overlay-cont">
-                  <div class="port-btn-cont">
-                    <div aria-hidden="true" class="icon_search"></div>
-                  </div>
-                </div>
-              </a>
-            </li>
-            <!-- Item -->
-            <li class="port-item mix design lightbox-item">
-              <a href="images/Inter_School_Badminton_tournament_2019/6_Inter_School_Badminton_tournament_2019.jpg"
-                class="fancybox" aria-label="badminton_tournament_2019_pics" rel="group">
-                <div class="port-img-overlay">
-                  <img class="port-main-img"
-                    src="images/Inter_School_Badminton_tournament_2019/6_Inter_School_Badminton_tournament_2019.jpg"
-                    alt="img">
-                </div>
-                <div class="port-overlay-cont">
-                  <div class="port-btn-cont">
-                    <div aria-hidden="true" class="icon_search"></div>
-                  </div>
-                </div>
-              </a>
-            </li>
-            <li class="port-item mix design lightbox-item">
-              <a href="images/Inter_School_Badminton_tournament_2019/18_Inter_School_Badminton_tournament_2019.jpg"
-                class="fancybox" aria-label="badminton_tournament_2019_pics" rel="group">
-                <div class="port-img-overlay">
-                  <img class="port-main-img"
-                    src="images/Inter_School_Badminton_tournament_2019/18_Inter_School_Badminton_tournament_2019.jpg"
-                    alt="img">
-                </div>
-                <div class="port-overlay-cont">
-                  <div class="port-btn-cont">
-                    <div aria-hidden="true" class="icon_search"></div>
-                  </div>
-                </div>
-              </a>
-            </li>
-            <!-- Item -->
-            <li class="port-item mix design lightbox-item">
-              <a href="images/Inter_School_Badminton_tournament_2019/19_Inter_School_Badminton_tournament_2019.jpg"
-                class="fancybox" aria-label="badminton_tournament_2019_pics" rel="group">
-                <div class="port-img-overlay">
-                  <img class="port-main-img"
-                    src="images/Inter_School_Badminton_tournament_2019/19_Inter_School_Badminton_tournament_2019.jpg"
-                    alt="img">
-                </div>
-                <div class="port-overlay-cont">
-                  <div class="port-btn-cont">
-                    <div aria-hidden="true" class="icon_search"></div>
-                  </div>
-                </div>
-              </a>
-            </li>
-            <!-- Item big -->
-            <li class="port-item mix design lightbox-item">
-              <a href="images/Inter_School_Badminton_tournament_2019/2_Inter_School_Badminton_tournament_2019.jpg"
-                class="fancybox" aria-label="badminton_tournament_2019_pics" rel="group">
-                <div class="port-img-overlay">
-                  <img class="port-main-img"
-                    src="images/Inter_School_Badminton_tournament_2019/2_Inter_School_Badminton_tournament_2019.jpg"
-                    alt="img">
-                </div>
-                <div class="port-overlay-cont">
-                  <div class="port-btn-cont">
-                    <div aria-hidden="true" class="icon_search"></div>
-                  </div>
-                </div>
-              </a>
-            </li>
-            <!-- Item -->
-            <li class="port-item mix design lightbox-item">
-              <a href="images/Inter_School_Badminton_tournament_2019/11_Inter_School_Badminton_tournament_2019.jpg"
-                class="fancybox" aria-label="badminton_tournament_2019_pics" rel="group">
-                <div class="port-img-overlay">
-                  <img class="port-main-img"
-                    src="images/Inter_School_Badminton_tournament_2019/11_Inter_School_Badminton_tournament_2019.jpg"
-                    alt="img">
-                </div>
-                <div class="port-overlay-cont">
-                  <div class="port-btn-cont">
-                    <div aria-hidden="true" class="icon_search"></div>
-                  </div>
-                </div>
-              </a>
-            </li>
-            <!-- Item -->
-            <li class="port-item mix design lightbox-item">
-              <a href="images/Inter_School_Badminton_tournament_2019/12_Inter_School_Badminton_tournament_2019.jpg"
-                class="fancybox" aria-label="badminton_tournament_2019_pics" rel="group">
-                <div class="port-img-overlay">
-                  <img class="port-main-img"
-                    src="images/Inter_School_Badminton_tournament_2019/12_Inter_School_Badminton_tournament_2019.jpg"
-                    alt="img">
-                </div>
-                <div class="port-overlay-cont">
-                  <div class="port-btn-cont">
-                    <div aria-hidden="true" class="icon_search"></div>
-                  </div>
-                </div>
-              </a>
-            </li>
-            <!-- Item -->
-            <li class="port-item mix design lightbox-item">
-              <a href="images/Inter_School_Badminton_tournament_2019/13_Inter_School_Badminton_tournament_2019.jpg"
-                class="fancybox" aria-label="badminton_tournament_2019_pics" rel="group">
-                <div class="port-img-overlay">
-                  <img class="port-main-img"
-                    src="images/Inter_School_Badminton_tournament_2019/13_Inter_School_Badminton_tournament_2019.jpg"
-                    alt="img">
-                </div>
-                <div class="port-overlay-cont">
-                  <div class="port-btn-cont">
-                    <div aria-hidden="true" class="icon_search"></div>
-                  </div>
-                </div>
-              </a>
-            </li>
-            <!-- Item -->
-            <li class="port-item mix design lightbox-item">
-              <a href="images/Inter_School_Badminton_tournament_2019/1_Poster_badminton.jpg" class="fancybox"
-                aria-label="badminton_tournament_2019_pics" rel="group">
-                <div class="port-img-overlay">
-                  <img class="port-main-img" src="images/Inter_School_Badminton_tournament_2019/1_Poster_badminton.jpg"
-                    alt="img">
-                </div>
-                <div class="port-overlay-cont">
-                  <div class="port-btn-cont">
-                    <div aria-hidden="true" class="icon_search"></div>
-                  </div>
-                </div>
-              </a>
-            </li>
-            <!-- Item -->
-            <li class="port-item mix design lightbox-item">
-              <a href="images/Inter_School_Badminton_tournament_2019/1_Poster_badminton.jpg" class="fancybox"
-                aria-label="badminton_tournament_2019_pics" rel="group">
-                <div class="port-img-overlay">
-                  <img class="port-main-img" src="images/Inter_School_Badminton_tournament_2019/1_Poster_badminton.jpg"
-                    alt="img">
-                </div>
-                <div class="port-overlay-cont">
-                  <div class="port-btn-cont">
-                    <div aria-hidden="true" class="icon_search"></div>
-                  </div>
-                </div>
-              </a>
-            </li>
-            <!-- Item -->
-            <li class="port-item mix design lightbox-item">
-              <a href="images/Inter_School_Badminton_tournament_2019/2_Poster_badminton.jpg" class="fancybox"
-                aria-label="badminton_tournament_2019_pics" rel="group">
-                <div class="port-img-overlay">
-                  <img class="port-main-img" src="images/Inter_School_Badminton_tournament_2019/2_Poster_badminton.jpg"
-                    alt="img">
-                </div>
-                <div class="port-overlay-cont">
-                  <div class="port-btn-cont">
-                    <div aria-hidden="true" class="icon_search"></div>
-                  </div>
-                </div>
-              </a>
-            </li>
-            <!-- Item -->
-            <li class="port-item mix design lightbox-item">
-              <a href="images/Inter_School_Badminton_tournament_2019/3_Poster_badminton.jpg" class="fancybox"
-                aria-label="badminton_tournament_2019_pics" rel="group">
-                <div class="port-img-overlay">
-                  <img class="port-main-img" src="images/Inter_School_Badminton_tournament_2019/3_Poster_badminton.jpg"
-                    alt="img">
-                </div>
-                <div class="port-overlay-cont">
-                  <div class="port-btn-cont">
-                    <div aria-hidden="true" class="icon_search"></div>
-                  </div>
-                </div>
-              </a>
-            </li>
-            <!-- Item -->
-            <li class="port-item mix design lightbox-item">
-              <a href="images/Inter_School_Badminton_tournament_2019/4_Poster_badminton.jpg" class="fancybox"
-                aria-label="badminton_tournament_2019_pics" rel="group">
-                <div class="port-img-overlay">
-                  <img class="port-main-img" src="images/Inter_School_Badminton_tournament_2019/4_Poster_badminton.jpg"
-                    alt="img">
-                </div>
-                <div class="port-overlay-cont">
-                  <div class="port-btn-cont">
-                    <div aria-hidden="true" class="icon_search"></div>
-                  </div>
-                </div>
-              </a>
-            </li>
-            <!-- Item -->
-            <li class="port-item mix design lightbox-item">
-              <a href="images/Inter_School_Badminton_tournament_2019/5_Poster_badminton.jpg" class="fancybox"
-                aria-label="badminton_tournament_2019_pics" rel="group">
-                <div class="port-img-overlay">
-                  <img class="port-main-img" src="images/Inter_School_Badminton_tournament_2019/5_Poster_badminton.jpg"
-                    alt="img">
-                </div>
-                <div class="port-overlay-cont">
-                  <div class="port-btn-cont">
-                    <div aria-hidden="true" class="icon_search"></div>
-                  </div>
-                </div>
-              </a>
-            </li>
-            <!-- Item -->
-            <li class="port-item mix design lightbox-item">
-              <a href="images/Inter_School_Badminton_tournament_2019/6_Poster_badminton.jpg" class="fancybox"
-                aria-label="badminton_tournament_2019_pics" rel="group">
-                <div class="port-img-overlay">
-                  <img class="port-main-img" src="images/Inter_School_Badminton_tournament_2019/6_Poster_badminton.jpg"
-                    alt="img">
-                </div>
-                <div class="port-overlay-cont">
-                  <div class="port-btn-cont">
-                    <div aria-hidden="true" class="icon_search"></div>
-                  </div>
-                </div>
-              </a>
-            </li>
-            <!-- Item -->
-            <li class="port-item mix design lightbox-item">
-              <a href="images/Inter_School_Badminton_tournament_2019/7_Poster_badminton.jpg" class="fancybox"
-                aria-label="badminton_tournament_2019_pics" rel="group">
-                <div class="port-img-overlay">
-                  <img class="port-main-img" src="images/Inter_School_Badminton_tournament_2019/7_Poster_badminton.jpg"
-                    alt="img">
-                </div>
-                <div class="port-overlay-cont">
-                  <div class="port-btn-cont">
-                    <div aria-hidden="true" class="icon_search"></div>
-                  </div>
-                </div>
-              </a>
-            </li>
-            <!-- Item -->
-            <li class="port-item mix design lightbox-item">
-              <a href="images/Inter_School_Badminton_tournament_2019/8_Poster_badminton.jpg" class="fancybox"
-                aria-label="badminton_tournament_2019_pics" rel="group">
-                <div class="port-img-overlay">
-                  <img class="port-main-img" src="images/Inter_School_Badminton_tournament_2019/8_Poster_badminton.jpg"
-                    alt="img">
-                </div>
-                <div class="port-overlay-cont">
-                  <div class="port-btn-cont">
-                    <div aria-hidden="true" class="icon_search"></div>
-                  </div>
-                </div>
-              </a>
-            </li>
-            <!-- Item big -->
-            <li class="port-item mix design lightbox-item">
-              <a href="images/Inter_School_Badminton_tournament_2019/14_Inter_School_Badminton_tournament_2019.jpg"
-                class="fancybox" aria-label="badminton_tournament_2019_pics" rel="group">
-                <div class="port-img-overlay">
-                  <img class="port-main-img"
-                    src="images/Inter_School_Badminton_tournament_2019/14_Inter_School_Badminton_tournament_2019.jpg"
-                    alt="img">
-                </div>
-                <div class="port-overlay-cont">
-                  <div class="port-btn-cont">
-                    <div aria-hidden="true" class="icon_search"></div>
-                  </div>
-                </div>
-              </a>
-            </li>
-            <!-- Item -->
-            <li class="port-item mix design lightbox-item">
-              <a href="images/Inter_School_Badminton_tournament_2019/15_Inter_School_Badminton_tournament_2019.jpg"
-                class="fancybox" aria-label="badminton_tournament_2019_pics" rel="group">
-                <div class="port-img-overlay">
-                  <img class="port-main-img"
-                    src="images/Inter_School_Badminton_tournament_2019/15_Inter_School_Badminton_tournament_2019.jpg"
-                    alt="img">
-                </div>
-                <div class="port-overlay-cont">
-                  <div class="port-btn-cont">
-                    <div aria-hidden="true" class="icon_search"></div>
-                  </div>
-                </div>
-              </a>
-            </li>
-            <!-- Item big -->
-            <li class="port-item mix design lightbox-item">
-              <a href="images/Inter_School_Badminton_tournament_2019/16_Inter_School_Badminton_tournament_2019.jpg"
-                class="fancybox" aria-label="badminton_tournament_2019_pics" rel="group">
-                <div class="port-img-overlay">
-                  <img class="port-main-img"
-                    src="images/Inter_School_Badminton_tournament_2019/16_Inter_School_Badminton_tournament_2019.jpg"
-                    alt="img">
-                </div>
-                <div class="port-overlay-cont">
-                  <div class="port-btn-cont">
-                    <div aria-hidden="true" class="icon_search"></div>
-                  </div>
-                </div>
-              </a>
-            </li>
-            <!-- Item -->
-            <li class="port-item mix design lightbox-item">
-              <a href="images/Inter_School_Badminton_tournament_2019/20_Inter_School_Badminton_tournament_2019.jpg"
-                class="fancybox" aria-label="badminton_tournament_2019_pics" rel="group">
-                <div class="port-img-overlay">
-                  <img class="port-main-img"
-                    src="images/Inter_School_Badminton_tournament_2019/20_Inter_School_Badminton_tournament_2019.jpg"
-                    alt="img">
-                </div>
-                <div class="port-overlay-cont">
-                  <div class="port-btn-cont">
-                    <div aria-hidden="true" class="icon_search"></div>
-                  </div>
-                </div>
-              </a>
-            </li>
-            <!-- Item -->
-            <li class="port-item mix design lightbox-item">
-              <a href="images/Inter_School_Badminton_tournament_2019/21_Inter_School_Badminton_tournament_2019.jpg"
-                class="fancybox" aria-label="badminton_tournament_2019_pics" rel="group">
-                <div class="port-img-overlay">
-                  <img class="port-main-img"
-                    src="images/Inter_School_Badminton_tournament_2019/21_Inter_School_Badminton_tournament_2019.jpg"
-                    alt="img">
-                </div>
-                <div class="port-overlay-cont">
-                  <div class="port-btn-cont">
-                    <div aria-hidden="true" class="icon_search"></div>
-                  </div>
-                </div>
-              </a>
-            </li>
-            <!-- Item -->
-            <li class="port-item mix design lightbox-item">
-              <a href="images/Inter_School_Badminton_tournament_2019/22_Inter_School_Badminton_tournament_2019.jpg"
-                class="fancybox" aria-label="badminton_tournament_2019_pics" rel="group">
-                <div class="port-img-overlay">
-                  <img class="port-main-img"
-                    src="images/Inter_School_Badminton_tournament_2019/22_Inter_School_Badminton_tournament_2019.jpg"
-                    alt="img">
-                </div>
-                <div class="port-overlay-cont">
-                  <div class="port-btn-cont">
-                    <div aria-hidden="true" class="icon_search"></div>
-                  </div>
-                </div>
-              </a>
-            </li>
-            <!-- Item -->
-            <li class="port-item mix design lightbox-item">
-              <a href="images/Inter_School_Badminton_tournament_2019/23_Inter_School_Badminton_tournament_2019.jpg"
-                class="fancybox" aria-label="badminton_tournament_2019_pics" rel="group">
-                <div class="port-img-overlay">
-                  <img class="port-main-img"
-                    src="images/Inter_School_Badminton_tournament_2019/23_Inter_School_Badminton_tournament_2019.jpg"
-                    alt="img">
-                </div>
-                <div class="port-overlay-cont">
-                  <div class="port-btn-cont">
-                    <div aria-hidden="true" class="icon_search"></div>
-                  </div>
-                </div>
-              </a>
-            </li>
-            <!-- Item -->
-            <li class="port-item mix design lightbox-item">
-              <a href="images/Inter_School_Badminton_tournament_2019/24_Inter_School_Badminton_tournament_2019.jpg"
-                class="fancybox" aria-label="badminton_tournament_2019_pics" rel="group">
-                <div class="port-img-overlay">
-                  <img class="port-main-img"
-                    src="images/Inter_School_Badminton_tournament_2019/24_Inter_School_Badminton_tournament_2019.jpg"
-                    alt="img">
-                </div>
-                <div class="port-overlay-cont">
-                  <div class="port-btn-cont">
-                    <div aria-hidden="true" class="icon_search"></div>
-                  </div>
-                </div>
-              </a>
-            </li>
-            <!-- Item -->
-            <li class="port-item mix design lightbox-item">
-              <a href="images/Inter_School_Badminton_tournament_2019/25_Inter_School_Badminton_tournament_2019.jpg"
-                class="fancybox" aria-label="badminton_tournament_2019_pics" rel="group">
-                <div class="port-img-overlay">
-                  <img class="port-main-img"
-                    src="images/Inter_School_Badminton_tournament_2019/25_Inter_School_Badminton_tournament_2019.jpg"
-                    alt="img">
-                </div>
-                <div class="port-overlay-cont">
-                  <div class="port-btn-cont">
-                    <div aria-hidden="true" class="icon_search"></div>
-                  </div>
-                </div>
-              </a>
-            </li>
-            <!-- Item -->
-            <li class="port-item mix design lightbox-item">
-              <a href="images/Inter_School_Badminton_tournament_2019/26_Inter_School_Badminton_tournament_2019.jpg"
-                class="fancybox" aria-label="badminton_tournament_2019_pics" rel="group">
-                <div class="port-img-overlay">
-                  <img class="port-main-img"
-                    src="images/Inter_School_Badminton_tournament_2019/26_Inter_School_Badminton_tournament_2019.jpg"
-                    alt="img">
-                </div>
-                <div class="port-overlay-cont">
-                  <div class="port-btn-cont">
-                    <div aria-hidden="true" class="icon_search"></div>
-                  </div>
-                </div>
-              </a>
-            </li>
-            <!-- Item -->
-            <li class="port-item mix design lightbox-item">
-              <a href="images/Inter_School_Badminton_tournament_2019/27_Inter_School_Badminton_tournament_2019.jpg"
-                class="fancybox" aria-label="badminton_tournament_2019_pics" rel="group">
-                <div class="port-img-overlay">
-                  <img class="port-main-img"
-                    src="images/Inter_School_Badminton_tournament_2019/27_Inter_School_Badminton_tournament_2019.jpg"
-                    alt="img">
-                </div>
-                <div class="port-overlay-cont">
-                  <div class="port-btn-cont">
-                    <div aria-hidden="true" class="icon_search"></div>
-                  </div>
-                </div>
-              </a>
-            </li>
-            <!-- Item -->
-            <li class="port-item mix design lightbox-item">
-              <a href="images/Inter_School_Badminton_tournament_2019/28_Inter_School_Badminton_tournament_2019.jpg"
-                class="fancybox" aria-label="badminton_tournament_2019_pics" rel="group">
-                <div class="port-img-overlay">
-                  <img class="port-main-img"
-                    src="images/Inter_School_Badminton_tournament_2019/28_Inter_School_Badminton_tournament_2019.jpg"
-                    alt="img">
-                </div>
-                <div class="port-overlay-cont">
-                  <div class="port-btn-cont">
-                    <div aria-hidden="true" class="icon_search"></div>
-                  </div>
-                </div>
-              </a>
-            </li>
-            <!-- Item -->
-            <li class="port-item mix design lightbox-item">
-              <a href="images/Inter_School_Badminton_tournament_2019/29_Inter_School_Badminton_tournament_2019.jpg"
-                class="fancybox" aria-label="badminton_tournament_2019_pics" rel="group">
-                <div class="port-img-overlay">
-                  <img class="port-main-img"
-                    src="images/Inter_School_Badminton_tournament_2019/29_Inter_School_Badminton_tournament_2019.jpg"
-                    alt="img">
-                </div>
-                <div class="port-overlay-cont">
-                  <div class="port-btn-cont">
-                    <div aria-hidden="true" class="icon_search"></div>
-                  </div>
-                </div>
-              </a>
-            </li>
-            <!-- Item -->
-            <li class="port-item mix design lightbox-item">
-              <a href="images/Inter_School_Badminton_tournament_2019/30_Inter_School_Badminton_tournament_2019.jpg"
-                class="fancybox" aria-label="badminton_tournament_2019_pics" rel="group">
-                <div class="port-img-overlay">
-                  <img class="port-main-img"
-                    src="images/Inter_School_Badminton_tournament_2019/30_Inter_School_Badminton_tournament_2019.jpg"
-                    alt="img">
-                </div>
-                <div class="port-overlay-cont">
-                  <div class="port-btn-cont">
-                    <div aria-hidden="true" class="icon_search"></div>
-                  </div>
-                </div>
-              </a>
-            </li>
-            <!-- Item -->
-            <li class="port-item mix design lightbox-item">
-              <a href="images/Inter_School_Badminton_tournament_2019/31_Inter_School_Badminton_tournament_2019.jpg"
-                class="fancybox" aria-label="badminton_tournament_2019_pics" rel="group">
-                <div class="port-img-overlay">
-                  <img class="port-main-img"
-                    src="images/Inter_School_Badminton_tournament_2019/31_Inter_School_Badminton_tournament_2019.jpg"
-                    alt="img">
-                </div>
-                <div class="port-overlay-cont">
-                  <div class="port-btn-cont">
-                    <div aria-hidden="true" class="icon_search"></div>
-                  </div>
-                </div>
-              </a>
-            </li>
-            <!-- Item -->
-            <li class="port-item mix design lightbox-item">
-              <a href="images/Inter_School_Badminton_tournament_2019/32_Inter_School_Badminton_tournament_2019.jpg"
-                class="fancybox" aria-label="badminton_tournament_2019_pics" rel="group">
-                <div class="port-img-overlay">
-                  <img class="port-main-img"
-                    src="images/Inter_School_Badminton_tournament_2019/32_Inter_School_Badminton_tournament_2019.jpg"
-                    alt="img">
-                </div>
-                <div class="port-overlay-cont">
-                  <div class="port-btn-cont">
-                    <div aria-hidden="true" class="icon_search"></div>
-                  </div>
-                </div>
-              </a>
-            </li>
-            <!-- Item -->
-            <li class="port-item mix design lightbox-item">
-              <a href="images/Inter_School_Badminton_tournament_2019/33_Inter_School_Badminton_tournament_2019.jpg"
-                class="fancybox" aria-label="badminton_tournament_2019_pics" rel="group">
-                <div class="port-img-overlay">
-                  <img class="port-main-img"
-                    src="images/Inter_School_Badminton_tournament_2019/33_Inter_School_Badminton_tournament_2019.jpg"
-                    alt="img">
-                </div>
-                <div class="port-overlay-cont">
-                  <div class="port-btn-cont">
-                    <div aria-hidden="true" class="icon_search"></div>
-                  </div>
-                </div>
-              </a>
-            </li>
-            <!-- Item -->
-            <li class="port-item mix design lightbox-item">
-              <a href="images/Inter_School_Badminton_tournament_2019/34_Inter_School_Badminton_tournament_2019.jpg"
-                class="fancybox" aria-label="badminton_tournament_2019_pics" rel="group">
-                <div class="port-img-overlay">
-                  <img class="port-main-img"
-                    src="images/Inter_School_Badminton_tournament_2019/34_Inter_School_Badminton_tournament_2019.jpg"
-                    alt="img">
-                </div>
-                <div class="port-overlay-cont">
-                  <div class="port-btn-cont">
-                    <div aria-hidden="true" class="icon_search"></div>
-                  </div>
-                </div>
-              </a>
-            </li>
-            <!-- Item -->
-            <li class="port-item mix design lightbox-item">
-              <a href="images/Inter_School_Badminton_tournament_2019/35_Inter_School_Badminton_tournament_2019.jpg"
-                class="fancybox" aria-label="badminton_tournament_2019_pics" rel="group">
-                <div class="port-img-overlay">
-                  <img class="port-main-img"
-                    src="images/Inter_School_Badminton_tournament_2019/35_Inter_School_Badminton_tournament_2019.jpg"
-                    alt="img">
-                </div>
-                <div class="port-overlay-cont">
-                  <div class="port-btn-cont">
-                    <div aria-hidden="true" class="icon_search"></div>
-                  </div>
-                </div>
-              </a>
-            </li>
+      </div>
+    </div>
+  </div>
+  <div class="page-section p-140-cont pb-50">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 mb-50">
+          <div class="port-detail-cont mb-30">
+            <div class="port-detail font-poppins mb-20">
+              <p>
+                <strong class="font-black">Venue:</strong>
+                Sathish Sivalingam Indoor stadium, Velammal Vidyalaya (Annexure) School
+              </p>
+              <p>
+                <strong class="font-black">Date:</strong>
+                24th October, 2019
+              </p>
+              <p>
+                <strong class="font-black">Role:</strong>
+                Event Organizer
+              </p>
+              <p>
+                <strong class="font-black">Links:</strong>
+                <a href="http://vtv24x7.com/inter-school-badminton-competition-held-by-theesma-events-on-24th-october-2019/"
+                  target="_blank" rel="noopener" aria-label="news link of badminton tournament 2019">news</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-9 mb-50">
+          <p class="text-highlight mb-30 text-justify">Theesma’s Inter-School badminton competition held at Sathish Sivalingam
+            Indoor stadium, Velammal Vidyalaya (Annexure) School on 24th October 2019 was a grand success with more
+            than 150 participants in 4 categories- Under 10, 13, 15 and 17 singles – boys and girls.</p>
+          <div class="table-responsive">
+            <table class="table table-hover mb-40">
+              <thead>
+                <tr>
+                  <th style="border-left: 0;"></th>
+                  <th colspan="4" class="text-center bold font-20">WINNERS</th>
+                  <th colspan="2" class="text-center bold font-20">RUNNERS</th>
+                </tr>
+                <tr>
+                  <th class="bold">Age Category</th>
+                  <th class="bold">Girls</th>
+                  <th class="bold">From</th>
+                  <th class="bold">Boys</th>
+                  <th class="bold">From</th>
+                  <th class="bold">Girls</th>
+                  <th class="bold">Boys</th>
+                </tr>
+              </thead>
+              <tbody>
+                </tr>
+                <tr>
+                  <td>U-10</td>
+                  <td>Harini Raja</td>
+                  <td>Kola Perumal Chetty Vaishnav Senior Secondary School</td>
+                  <td>Srinivas Raghav</td>
+                  <td>Lalaji Memorial Omega International School (LMOIS)</td>
+                  <td>Tanniyaa</td>
+                  <td>Suhaash</td>
+                </tr>
+                <tr>
+                  <td>U-13</td>
+                  <td>Rubika</td>
+                  <td>Chennai</td>
+                  <td>Lakshan</td>
+                  <td>Jawahar Hr Sec School, Neyveli </td>
+                  <td>Anbu Jenitha</td>
+                  <td>Akash</td>
+                </tr>
+                <tr>
+                  <td>U-15</td>
+                  <td>Rubika</td>
+                  <td>Chennai</td>
+                  <td>Jai Akash</td>
+                  <td>Chennai</td>
+                  <td>Sree Meenakshi</td>
+                  <td>Lakshan</td>
+                </tr>
+                <tr>
+                  <td>U-17</td>
+                  <td>Kaviya</td>
+                  <td>Bosco Academy </td>
+                  <td>Tamil Arasan</td>
+                  <td>Velammal West School</td>
+                  <td>Lavanya</td>
+                  <td>Jai Akash</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <!-- <ul>
+            <li>In Under 10 girls and boy's category, the Winners are Harini Raja from Kola Perumal Chetty Vaishnav
+              Senior Secondary School and Srinivas Raghav from Lalaji Memorial Omega International School (LMOIS)
+              respectively.</li>
+            <li>In Under 13 girls and boy's category, the Winners are Rubika from Chennai and Lakshan from Jawahar
+              Hr Sec School, Neyveli respectively.</li>
+            <li>In Under 15 girls and boy’s category, the Winners are Rubika and Jai Akash from Chennai
+              respectively.</li>
+            <li>In Under 17 girls and boy’s category, the Winners are Kaviya from Bosco Academy and Tamil Arasan
+              from Velammal West school.</li>
+            <li>In girl’s category, the runners are Under 10, 13, 15 and 17 are Tanniyaa, Anbu Jenitha, Sree
+              Meenakshi and Lavanya respectively.</li>
+            <li>In boy’s category, the runners are Under 10, 13, 15 and 17 are Suhaash, Akash, Lakshan and Jai Akash
+              respectively.</li>
+          </ul> -->
+          <p class="mb-10 text-justify">The winners and runners were honoured with cash prize and trophies by the CEO of Theesma Events, Miss
+            Priyanka and all the other participants were awarded certificates.</p>
+          <h4 class="font-open-sans"><strong>Team Theesma</strong></h4>
+          <p class="mb-10 text-justify">&emsp;&emsp;Theesma takes immense pleasure in appreciating our IT partner Mr Balachandiran from TenSketch. Special
+            mention twin brother's Madhan and Sudhan for being the pillar of theesma and extending their time,
+            energy and work for the tournament. Also to note the contributions made by theesma’s friends Natparasan
+            and Vibin for being throughout the event.</p>
+          <h4 class="font-open-sans"><strong>Sponsors</strong></h4>
+          <p class="mb-10 text-justify">&emsp;&emsp;Warm gratitude to the event’s major sponsor, Mr Vijaykumar from Cuddalore who helped us without any
+            expectation in return and a cool thanks to Mr Ismail for quenching the player’s thirst by sponsoring
+            water bottles.</p>
+        </div>
+      </div>
+      <div class="row">
+        <ul class="port-grid masonry clearfix" id="items-grid">
+          <li class="port-item mix design lightbox-item">
+            <a href="images/Inter_School_Badminton_tournament_2019/17_Inter_School_Badminton_tournament_2019.jpg"
+              class="fancybox" aria-label="badminton_tournament_2019_pics" rel="group">
+              <div class="port-img-overlay">
+                <img class="port-main-img"
+                  src="images/Inter_School_Badminton_tournament_2019/17_Inter_School_Badminton_tournament_2019.jpg"
+                  alt="Inter_School_Badminton_tournament_2019 pics">
+              </div>
+              <div class="port-overlay-cont">
+                <div class="port-btn-cont">
+                  <div aria-hidden="true" class="icon_search"></div>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li class="port-item mix design lightbox-item">
+            <a href="images/Inter_School_Badminton_tournament_2019/7_Inter_School_Badminton_tournament_2019.jpg"
+              class="fancybox" aria-label="badminton_tournament_2019_pics" rel="group">
+              <div class="port-img-overlay">
+                <img class="port-main-img"
+                  src="images/Inter_School_Badminton_tournament_2019/7_Inter_School_Badminton_tournament_2019.jpg"
+                  alt="Inter_School_Badminton_tournament_2019 pics">
+              </div>
+              <div class="port-overlay-cont">
+                <div class="port-btn-cont">
+                  <div aria-hidden="true" class="icon_search"></div>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li class="port-item mix design lightbox-item">
+            <a href="images/Inter_School_Badminton_tournament_2019/3_Inter_School_Badminton_tournament_2019.jpg"
+              class="fancybox" aria-label="badminton_tournament_2019_pics" rel="group">
+              <div class="port-img-overlay">
+                <img class="port-main-img"
+                  src="images/Inter_School_Badminton_tournament_2019/3_Inter_School_Badminton_tournament_2019.jpg"
+                  alt="Inter_School_Badminton_tournament_2019 pics">
+              </div>
+              <div class="port-overlay-cont">
+                <div class="port-btn-cont">
+                  <div aria-hidden="true" class="icon_search"></div>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li class="port-item mix design lightbox-item">
+            <a href="images/Inter_School_Badminton_tournament_2019/4_Inter_School_Badminton_tournament_2019.jpg"
+              class="fancybox" aria-label="badminton_tournament_2019_pics" rel="group">
+              <div class="port-img-overlay">
+                <img class="port-main-img"
+                  src="images/Inter_School_Badminton_tournament_2019/4_Inter_School_Badminton_tournament_2019.jpg"
+                  alt="Inter_School_Badminton_tournament_2019 pics">
+              </div>
+              <div class="port-overlay-cont">
+                <div class="port-btn-cont">
+                  <div aria-hidden="true" class="icon_search"></div>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li class="port-item mix design lightbox-item">
+            <a href="images/Inter_School_Badminton_tournament_2019/5_Inter_School_Badminton_tournament_2019.jpg"
+              class="fancybox" aria-label="badminton_tournament_2019_pics" rel="group">
+              <div class="port-img-overlay">
+                <img class="port-main-img"
+                  src="images/Inter_School_Badminton_tournament_2019/5_Inter_School_Badminton_tournament_2019.jpg"
+                  alt="Inter_School_Badminton_tournament_2019 pics">
+              </div>
+              <div class="port-overlay-cont">
+                <div class="port-btn-cont">
+                  <div aria-hidden="true" class="icon_search"></div>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li class="port-item mix design lightbox-item">
+            <a href="images/Inter_School_Badminton_tournament_2019/6_Inter_School_Badminton_tournament_2019.jpg"
+              class="fancybox" aria-label="badminton_tournament_2019_pics" rel="group">
+              <div class="port-img-overlay">
+                <img class="port-main-img"
+                  src="images/Inter_School_Badminton_tournament_2019/6_Inter_School_Badminton_tournament_2019.jpg"
+                  alt="Inter_School_Badminton_tournament_2019 pics">
+              </div>
+              <div class="port-overlay-cont">
+                <div class="port-btn-cont">
+                  <div aria-hidden="true" class="icon_search"></div>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li class="port-item mix design lightbox-item">
+            <a href="images/Inter_School_Badminton_tournament_2019/18_Inter_School_Badminton_tournament_2019.jpg"
+              class="fancybox" aria-label="badminton_tournament_2019_pics" rel="group">
+              <div class="port-img-overlay">
+                <img class="port-main-img"
+                  src="images/Inter_School_Badminton_tournament_2019/18_Inter_School_Badminton_tournament_2019.jpg"
+                  alt="Inter_School_Badminton_tournament_2019 pics">
+              </div>
+              <div class="port-overlay-cont">
+                <div class="port-btn-cont">
+                  <div aria-hidden="true" class="icon_search"></div>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li class="port-item mix design lightbox-item">
+            <a href="images/Inter_School_Badminton_tournament_2019/19_Inter_School_Badminton_tournament_2019.jpg"
+              class="fancybox" aria-label="badminton_tournament_2019_pics" rel="group">
+              <div class="port-img-overlay">
+                <img class="port-main-img"
+                  src="images/Inter_School_Badminton_tournament_2019/19_Inter_School_Badminton_tournament_2019.jpg"
+                  alt="Inter_School_Badminton_tournament_2019 pics">
+              </div>
+              <div class="port-overlay-cont">
+                <div class="port-btn-cont">
+                  <div aria-hidden="true" class="icon_search"></div>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li class="port-item mix design lightbox-item">
+            <a href="images/Inter_School_Badminton_tournament_2019/2_Inter_School_Badminton_tournament_2019.jpg"
+              class="fancybox" aria-label="badminton_tournament_2019_pics" rel="group">
+              <div class="port-img-overlay">
+                <img class="port-main-img"
+                  src="images/Inter_School_Badminton_tournament_2019/2_Inter_School_Badminton_tournament_2019.jpg"
+                  alt="Inter_School_Badminton_tournament_2019 pics">
+              </div>
+              <div class="port-overlay-cont">
+                <div class="port-btn-cont">
+                  <div aria-hidden="true" class="icon_search"></div>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li class="port-item mix design lightbox-item">
+            <a href="images/Inter_School_Badminton_tournament_2019/11_Inter_School_Badminton_tournament_2019.jpg"
+              class="fancybox" aria-label="badminton_tournament_2019_pics" rel="group">
+              <div class="port-img-overlay">
+                <img class="port-main-img"
+                  src="images/Inter_School_Badminton_tournament_2019/11_Inter_School_Badminton_tournament_2019.jpg"
+                  alt="Inter_School_Badminton_tournament_2019 pics">
+              </div>
+              <div class="port-overlay-cont">
+                <div class="port-btn-cont">
+                  <div aria-hidden="true" class="icon_search"></div>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li class="port-item mix design lightbox-item">
+            <a href="images/Inter_School_Badminton_tournament_2019/12_Inter_School_Badminton_tournament_2019.jpg"
+              class="fancybox" aria-label="badminton_tournament_2019_pics" rel="group">
+              <div class="port-img-overlay">
+                <img class="port-main-img"
+                  src="images/Inter_School_Badminton_tournament_2019/12_Inter_School_Badminton_tournament_2019.jpg"
+                  alt="Inter_School_Badminton_tournament_2019 pics">
+              </div>
+              <div class="port-overlay-cont">
+                <div class="port-btn-cont">
+                  <div aria-hidden="true" class="icon_search"></div>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li class="port-item mix design lightbox-item">
+            <a href="images/Inter_School_Badminton_tournament_2019/13_Inter_School_Badminton_tournament_2019.jpg"
+              class="fancybox" aria-label="badminton_tournament_2019_pics" rel="group">
+              <div class="port-img-overlay">
+                <img class="port-main-img"
+                  src="images/Inter_School_Badminton_tournament_2019/13_Inter_School_Badminton_tournament_2019.jpg"
+                  alt="Inter_School_Badminton_tournament_2019 pics">
+              </div>
+              <div class="port-overlay-cont">
+                <div class="port-btn-cont">
+                  <div aria-hidden="true" class="icon_search"></div>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li class="port-item mix design lightbox-item">
+            <a href="images/Inter_School_Badminton_tournament_2019/1_Poster_badminton.jpg" class="fancybox"
+              aria-label="badminton_tournament_2019_pics" rel="group">
+              <div class="port-img-overlay">
+                <img class="port-main-img" src="images/Inter_School_Badminton_tournament_2019/1_Poster_badminton.jpg"
+                  alt="Inter_School_Badminton_tournament_2019 pics">
+              </div>
+              <div class="port-overlay-cont">
+                <div class="port-btn-cont">
+                  <div aria-hidden="true" class="icon_search"></div>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li class="port-item mix design lightbox-item">
+            <a href="images/Inter_School_Badminton_tournament_2019/1_Poster_badminton.jpg" class="fancybox"
+              aria-label="badminton_tournament_2019_pics" rel="group">
+              <div class="port-img-overlay">
+                <img class="port-main-img" src="images/Inter_School_Badminton_tournament_2019/1_Poster_badminton.jpg"
+                  alt="Inter_School_Badminton_tournament_2019 pics">
+              </div>
+              <div class="port-overlay-cont">
+                <div class="port-btn-cont">
+                  <div aria-hidden="true" class="icon_search"></div>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li class="port-item mix design lightbox-item">
+            <a href="images/Inter_School_Badminton_tournament_2019/2_Poster_badminton.jpg" class="fancybox"
+              aria-label="badminton_tournament_2019_pics" rel="group">
+              <div class="port-img-overlay">
+                <img class="port-main-img" src="images/Inter_School_Badminton_tournament_2019/2_Poster_badminton.jpg"
+                  alt="Inter_School_Badminton_tournament_2019 pics">
+              </div>
+              <div class="port-overlay-cont">
+                <div class="port-btn-cont">
+                  <div aria-hidden="true" class="icon_search"></div>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li class="port-item mix design lightbox-item">
+            <a href="images/Inter_School_Badminton_tournament_2019/3_Poster_badminton.jpg" class="fancybox"
+              aria-label="badminton_tournament_2019_pics" rel="group">
+              <div class="port-img-overlay">
+                <img class="port-main-img" src="images/Inter_School_Badminton_tournament_2019/3_Poster_badminton.jpg"
+                  alt="Inter_School_Badminton_tournament_2019 pics">
+              </div>
+              <div class="port-overlay-cont">
+                <div class="port-btn-cont">
+                  <div aria-hidden="true" class="icon_search"></div>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li class="port-item mix design lightbox-item">
+            <a href="images/Inter_School_Badminton_tournament_2019/4_Poster_badminton.jpg" class="fancybox"
+              aria-label="badminton_tournament_2019_pics" rel="group">
+              <div class="port-img-overlay">
+                <img class="port-main-img" src="images/Inter_School_Badminton_tournament_2019/4_Poster_badminton.jpg"
+                  alt="Inter_School_Badminton_tournament_2019 pics">
+              </div>
+              <div class="port-overlay-cont">
+                <div class="port-btn-cont">
+                  <div aria-hidden="true" class="icon_search"></div>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li class="port-item mix design lightbox-item">
+            <a href="images/Inter_School_Badminton_tournament_2019/5_Poster_badminton.jpg" class="fancybox"
+              aria-label="badminton_tournament_2019_pics" rel="group">
+              <div class="port-img-overlay">
+                <img class="port-main-img" src="images/Inter_School_Badminton_tournament_2019/5_Poster_badminton.jpg"
+                  alt="Inter_School_Badminton_tournament_2019 pics">
+              </div>
+              <div class="port-overlay-cont">
+                <div class="port-btn-cont">
+                  <div aria-hidden="true" class="icon_search"></div>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li class="port-item mix design lightbox-item">
+            <a href="images/Inter_School_Badminton_tournament_2019/6_Poster_badminton.jpg" class="fancybox"
+              aria-label="badminton_tournament_2019_pics" rel="group">
+              <div class="port-img-overlay">
+                <img class="port-main-img" src="images/Inter_School_Badminton_tournament_2019/6_Poster_badminton.jpg"
+                  alt="Inter_School_Badminton_tournament_2019 pics">
+              </div>
+              <div class="port-overlay-cont">
+                <div class="port-btn-cont">
+                  <div aria-hidden="true" class="icon_search"></div>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li class="port-item mix design lightbox-item">
+            <a href="images/Inter_School_Badminton_tournament_2019/7_Poster_badminton.jpg" class="fancybox"
+              aria-label="badminton_tournament_2019_pics" rel="group">
+              <div class="port-img-overlay">
+                <img class="port-main-img" src="images/Inter_School_Badminton_tournament_2019/7_Poster_badminton.jpg"
+                  alt="Inter_School_Badminton_tournament_2019 pics">
+              </div>
+              <div class="port-overlay-cont">
+                <div class="port-btn-cont">
+                  <div aria-hidden="true" class="icon_search"></div>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li class="port-item mix design lightbox-item">
+            <a href="images/Inter_School_Badminton_tournament_2019/8_Poster_badminton.jpg" class="fancybox"
+              aria-label="badminton_tournament_2019_pics" rel="group">
+              <div class="port-img-overlay">
+                <img class="port-main-img" src="images/Inter_School_Badminton_tournament_2019/8_Poster_badminton.jpg"
+                  alt="Inter_School_Badminton_tournament_2019 pics">
+              </div>
+              <div class="port-overlay-cont">
+                <div class="port-btn-cont">
+                  <div aria-hidden="true" class="icon_search"></div>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li class="port-item mix design lightbox-item">
+            <a href="images/Inter_School_Badminton_tournament_2019/14_Inter_School_Badminton_tournament_2019.jpg"
+              class="fancybox" aria-label="badminton_tournament_2019_pics" rel="group">
+              <div class="port-img-overlay">
+                <img class="port-main-img"
+                  src="images/Inter_School_Badminton_tournament_2019/14_Inter_School_Badminton_tournament_2019.jpg"
+                  alt="Inter_School_Badminton_tournament_2019 pics">
+              </div>
+              <div class="port-overlay-cont">
+                <div class="port-btn-cont">
+                  <div aria-hidden="true" class="icon_search"></div>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li class="port-item mix design lightbox-item">
+            <a href="images/Inter_School_Badminton_tournament_2019/15_Inter_School_Badminton_tournament_2019.jpg"
+              class="fancybox" aria-label="badminton_tournament_2019_pics" rel="group">
+              <div class="port-img-overlay">
+                <img class="port-main-img"
+                  src="images/Inter_School_Badminton_tournament_2019/15_Inter_School_Badminton_tournament_2019.jpg"
+                  alt="Inter_School_Badminton_tournament_2019 pics">
+              </div>
+              <div class="port-overlay-cont">
+                <div class="port-btn-cont">
+                  <div aria-hidden="true" class="icon_search"></div>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li class="port-item mix design lightbox-item">
+            <a href="images/Inter_School_Badminton_tournament_2019/16_Inter_School_Badminton_tournament_2019.jpg"
+              class="fancybox" aria-label="badminton_tournament_2019_pics" rel="group">
+              <div class="port-img-overlay">
+                <img class="port-main-img"
+                  src="images/Inter_School_Badminton_tournament_2019/16_Inter_School_Badminton_tournament_2019.jpg"
+                  alt="Inter_School_Badminton_tournament_2019 pics">
+              </div>
+              <div class="port-overlay-cont">
+                <div class="port-btn-cont">
+                  <div aria-hidden="true" class="icon_search"></div>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li class="port-item mix design lightbox-item">
+            <a href="images/Inter_School_Badminton_tournament_2019/20_Inter_School_Badminton_tournament_2019.jpg"
+              class="fancybox" aria-label="badminton_tournament_2019_pics" rel="group">
+              <div class="port-img-overlay">
+                <img class="port-main-img"
+                  src="images/Inter_School_Badminton_tournament_2019/20_Inter_School_Badminton_tournament_2019.jpg"
+                  alt="Inter_School_Badminton_tournament_2019 pics">
+              </div>
+              <div class="port-overlay-cont">
+                <div class="port-btn-cont">
+                  <div aria-hidden="true" class="icon_search"></div>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li class="port-item mix design lightbox-item">
+            <a href="images/Inter_School_Badminton_tournament_2019/21_Inter_School_Badminton_tournament_2019.jpg"
+              class="fancybox" aria-label="badminton_tournament_2019_pics" rel="group">
+              <div class="port-img-overlay">
+                <img class="port-main-img"
+                  src="images/Inter_School_Badminton_tournament_2019/21_Inter_School_Badminton_tournament_2019.jpg"
+                  alt="Inter_School_Badminton_tournament_2019 pics">
+              </div>
+              <div class="port-overlay-cont">
+                <div class="port-btn-cont">
+                  <div aria-hidden="true" class="icon_search"></div>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li class="port-item mix design lightbox-item">
+            <a href="images/Inter_School_Badminton_tournament_2019/22_Inter_School_Badminton_tournament_2019.jpg"
+              class="fancybox" aria-label="badminton_tournament_2019_pics" rel="group">
+              <div class="port-img-overlay">
+                <img class="port-main-img"
+                  src="images/Inter_School_Badminton_tournament_2019/22_Inter_School_Badminton_tournament_2019.jpg"
+                  alt="Inter_School_Badminton_tournament_2019 pics">
+              </div>
+              <div class="port-overlay-cont">
+                <div class="port-btn-cont">
+                  <div aria-hidden="true" class="icon_search"></div>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li class="port-item mix design lightbox-item">
+            <a href="images/Inter_School_Badminton_tournament_2019/23_Inter_School_Badminton_tournament_2019.jpg"
+              class="fancybox" aria-label="badminton_tournament_2019_pics" rel="group">
+              <div class="port-img-overlay">
+                <img class="port-main-img"
+                  src="images/Inter_School_Badminton_tournament_2019/23_Inter_School_Badminton_tournament_2019.jpg"
+                  alt="Inter_School_Badminton_tournament_2019 pics">
+              </div>
+              <div class="port-overlay-cont">
+                <div class="port-btn-cont">
+                  <div aria-hidden="true" class="icon_search"></div>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li class="port-item mix design lightbox-item">
+            <a href="images/Inter_School_Badminton_tournament_2019/24_Inter_School_Badminton_tournament_2019.jpg"
+              class="fancybox" aria-label="badminton_tournament_2019_pics" rel="group">
+              <div class="port-img-overlay">
+                <img class="port-main-img"
+                  src="images/Inter_School_Badminton_tournament_2019/24_Inter_School_Badminton_tournament_2019.jpg"
+                  alt="Inter_School_Badminton_tournament_2019 pics">
+              </div>
+              <div class="port-overlay-cont">
+                <div class="port-btn-cont">
+                  <div aria-hidden="true" class="icon_search"></div>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li class="port-item mix design lightbox-item">
+            <a href="images/Inter_School_Badminton_tournament_2019/25_Inter_School_Badminton_tournament_2019.jpg"
+              class="fancybox" aria-label="badminton_tournament_2019_pics" rel="group">
+              <div class="port-img-overlay">
+                <img class="port-main-img"
+                  src="images/Inter_School_Badminton_tournament_2019/25_Inter_School_Badminton_tournament_2019.jpg"
+                  alt="Inter_School_Badminton_tournament_2019 pics">
+              </div>
+              <div class="port-overlay-cont">
+                <div class="port-btn-cont">
+                  <div aria-hidden="true" class="icon_search"></div>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li class="port-item mix design lightbox-item">
+            <a href="images/Inter_School_Badminton_tournament_2019/26_Inter_School_Badminton_tournament_2019.jpg"
+              class="fancybox" aria-label="badminton_tournament_2019_pics" rel="group">
+              <div class="port-img-overlay">
+                <img class="port-main-img"
+                  src="images/Inter_School_Badminton_tournament_2019/26_Inter_School_Badminton_tournament_2019.jpg"
+                  alt="Inter_School_Badminton_tournament_2019 pics">
+              </div>
+              <div class="port-overlay-cont">
+                <div class="port-btn-cont">
+                  <div aria-hidden="true" class="icon_search"></div>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li class="port-item mix design lightbox-item">
+            <a href="images/Inter_School_Badminton_tournament_2019/27_Inter_School_Badminton_tournament_2019.jpg"
+              class="fancybox" aria-label="badminton_tournament_2019_pics" rel="group">
+              <div class="port-img-overlay">
+                <img class="port-main-img"
+                  src="images/Inter_School_Badminton_tournament_2019/27_Inter_School_Badminton_tournament_2019.jpg"
+                  alt="Inter_School_Badminton_tournament_2019 pics">
+              </div>
+              <div class="port-overlay-cont">
+                <div class="port-btn-cont">
+                  <div aria-hidden="true" class="icon_search"></div>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li class="port-item mix design lightbox-item">
+            <a href="images/Inter_School_Badminton_tournament_2019/28_Inter_School_Badminton_tournament_2019.jpg"
+              class="fancybox" aria-label="badminton_tournament_2019_pics" rel="group">
+              <div class="port-img-overlay">
+                <img class="port-main-img"
+                  src="images/Inter_School_Badminton_tournament_2019/28_Inter_School_Badminton_tournament_2019.jpg"
+                  alt="Inter_School_Badminton_tournament_2019 pics">
+              </div>
+              <div class="port-overlay-cont">
+                <div class="port-btn-cont">
+                  <div aria-hidden="true" class="icon_search"></div>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li class="port-item mix design lightbox-item">
+            <a href="images/Inter_School_Badminton_tournament_2019/29_Inter_School_Badminton_tournament_2019.jpg"
+              class="fancybox" aria-label="badminton_tournament_2019_pics" rel="group">
+              <div class="port-img-overlay">
+                <img class="port-main-img"
+                  src="images/Inter_School_Badminton_tournament_2019/29_Inter_School_Badminton_tournament_2019.jpg"
+                  alt="Inter_School_Badminton_tournament_2019 pics">
+              </div>
+              <div class="port-overlay-cont">
+                <div class="port-btn-cont">
+                  <div aria-hidden="true" class="icon_search"></div>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li class="port-item mix design lightbox-item">
+            <a href="images/Inter_School_Badminton_tournament_2019/30_Inter_School_Badminton_tournament_2019.jpg"
+              class="fancybox" aria-label="badminton_tournament_2019_pics" rel="group">
+              <div class="port-img-overlay">
+                <img class="port-main-img"
+                  src="images/Inter_School_Badminton_tournament_2019/30_Inter_School_Badminton_tournament_2019.jpg"
+                  alt="Inter_School_Badminton_tournament_2019 pics">
+              </div>
+              <div class="port-overlay-cont">
+                <div class="port-btn-cont">
+                  <div aria-hidden="true" class="icon_search"></div>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li class="port-item mix design lightbox-item">
+            <a href="images/Inter_School_Badminton_tournament_2019/31_Inter_School_Badminton_tournament_2019.jpg"
+              class="fancybox" aria-label="badminton_tournament_2019_pics" rel="group">
+              <div class="port-img-overlay">
+                <img class="port-main-img"
+                  src="images/Inter_School_Badminton_tournament_2019/31_Inter_School_Badminton_tournament_2019.jpg"
+                  alt="Inter_School_Badminton_tournament_2019 pics">
+              </div>
+              <div class="port-overlay-cont">
+                <div class="port-btn-cont">
+                  <div aria-hidden="true" class="icon_search"></div>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li class="port-item mix design lightbox-item">
+            <a href="images/Inter_School_Badminton_tournament_2019/32_Inter_School_Badminton_tournament_2019.jpg"
+              class="fancybox" aria-label="badminton_tournament_2019_pics" rel="group">
+              <div class="port-img-overlay">
+                <img class="port-main-img"
+                  src="images/Inter_School_Badminton_tournament_2019/32_Inter_School_Badminton_tournament_2019.jpg"
+                  alt="Inter_School_Badminton_tournament_2019 pics">
+              </div>
+              <div class="port-overlay-cont">
+                <div class="port-btn-cont">
+                  <div aria-hidden="true" class="icon_search"></div>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li class="port-item mix design lightbox-item">
+            <a href="images/Inter_School_Badminton_tournament_2019/33_Inter_School_Badminton_tournament_2019.jpg"
+              class="fancybox" aria-label="badminton_tournament_2019_pics" rel="group">
+              <div class="port-img-overlay">
+                <img class="port-main-img"
+                  src="images/Inter_School_Badminton_tournament_2019/33_Inter_School_Badminton_tournament_2019.jpg"
+                  alt="Inter_School_Badminton_tournament_2019 pics">
+              </div>
+              <div class="port-overlay-cont">
+                <div class="port-btn-cont">
+                  <div aria-hidden="true" class="icon_search"></div>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li class="port-item mix design lightbox-item">
+            <a href="images/Inter_School_Badminton_tournament_2019/34_Inter_School_Badminton_tournament_2019.jpg"
+              class="fancybox" aria-label="badminton_tournament_2019_pics" rel="group">
+              <div class="port-img-overlay">
+                <img class="port-main-img"
+                  src="images/Inter_School_Badminton_tournament_2019/34_Inter_School_Badminton_tournament_2019.jpg"
+                  alt="Inter_School_Badminton_tournament_2019 pics">
+              </div>
+              <div class="port-overlay-cont">
+                <div class="port-btn-cont">
+                  <div aria-hidden="true" class="icon_search"></div>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li class="port-item mix design lightbox-item">
+            <a href="images/Inter_School_Badminton_tournament_2019/35_Inter_School_Badminton_tournament_2019.jpg"
+              class="fancybox" aria-label="badminton_tournament_2019_pics" rel="group">
+              <div class="port-img-overlay">
+                <img class="port-main-img"
+                  src="images/Inter_School_Badminton_tournament_2019/35_Inter_School_Badminton_tournament_2019.jpg"
+                  alt="Inter_School_Badminton_tournament_2019 pics">
+              </div>
+              <div class="port-overlay-cont">
+                <div class="port-btn-cont">
+                  <div aria-hidden="true" class="icon_search"></div>
+                </div>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- FOOTER-->
+  <footer id="contact" class="page-section pt-95 pb-50 footer2-black">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 col-sm-4 widget">
+          <h3>Contact us</h3>
+          <article>Healthcare organizations, educational institutes, sports academies, corporates, and industries can
+            reach us out if you need our event or media services.</article>
+          <div class="footer2-text-cont">
+            <i class="fa fa-mobile-phone fa-2x"></i>&emsp;<a href="tel:+918015480324"
+              aria-label="Esma Events contact number">91-8015480324</a>
+            <br>
+            <i class="fa fa-envelope" aria-hidden="true"></i>&emsp;<a class="a-text" href="mailto:team@theesma.com"
+              aria-label="Esma events mail ID">team@theesma.com</a>
+          </div>
+        </div>
+        <div class="col-md-2 col-sm-2 widget">
+          <h3>Links</h3>
+          <ul class="links-list a-text-cont font-poppins">
+            <li><a href="index.html" aria-label="home page Esma events">Home</a></li>
+            <li><a href="about_us.html" aria-label="about us page Esma events">About Us</a></li>
+            <h4>Portfolio - Events</h4>
+            <ul class="links-list a-text-cont font-poppins">
+              <li><a href="environment_events_portfolio.html"
+                  aria-label="environment_events_portfolio page_of_Esma_Events">Environment</a></li>
+              <li><a href="health_events_portfolio.html"
+                  aria-label="health_events_portfolio page_of_Esma_Events">Health</a></li>
+              <li><a href="sports_events_portfolio.html"
+                  aria-label="sports_events_portfolio page_of_Esma_Events">Sports</a></li>
+              <li><a href="entertainment_and_arts_event_portfolio.html"
+                  aria-label="entertainment_and_arts_event_portfolio page_of_Esma_Events">Entertainment & Arts</a></li>
+            </ul>
+          </ul>
           </ul>
         </div>
-      </div><!-- container end -->
-    </div><!-- page section end -->
-    <!-- FOOTER 4 BLACK -->
-    <footer id="contact" class="page-section pt-95 pb-50 footer2-black">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 col-sm-6 widget">
-            <div class="logo-footer-cont">
-              <a href="index.html">
-                <img class="logo-footer" src="images/Esma_logo.webp" alt="logo">
-              </a>
+        <div class="col-md-6 col-sm-6 widget">
+          <h3>Write to us, we’ll get back to you!</h3>
+          <form action="https://formspree.io/mpzwdrpa" method="POST">
+            <div class="form-group">
+              <label>Name</label>
+              <input type="text" class="form-control" id="name" name="Name" placeholder="Enter your name"
+                aria-label="Name" required="">
             </div>
-            <!-- <div class="footer2-text-cont">
-                      <address>
-                        555 California str, Suite 100<br>
-                        San&nbsp;Francisco, CA 94107
-                      </address>
-                    </div> -->
-            <div class="footer2-text-cont">
-              <i class="fa fa-mobile-phone"></i>&nbsp;<a href="tel:+918015480324">91-8015480324</a>
-              <br>
-              <i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;<a class="a-text"
-                href="mailto:team@theesma.com">team@theesma.com</a>
+            <div class="form-group">
+              <label>Contact #</label>
+              <input type="tel" class="form-control" id="contact_no" name="Contact #"
+                placeholder="your 10 digit mobile no." aria-label="contact_no" minlength="10" maxlength="10"
+                autocomplete="off" required="">
             </div>
-            <!-- <div class="footer2-text-cont a-text-main-cont">
-                      <a class="popup-gmaps mfp-plugin font-poppins"
-                        href="https://maps.google.com/maps?q=555+California+Street+Building,+California+Street,+San+Francisco,&amp;hl=en&amp;t=v&amp;hnear=555+California+Street+Building,+California+Street,+San+Francisco">Open
-                        Map</a>
-                    </div> -->
-          </div>
-          <div class="col-md-6 col-sm-6 widget">
-            <form action="https://formspree.io/mpzwdrpa" method="POST">
-              <div class="form-group">
-                <label for="name">Name</label>
-                <input type="text" class="form-control" id="name" placeholder="Enter your name" name="Name" required=""
-                  aria-label="Name">
-              </div>
-              <div class="form-group">
-                <label for="contact">Contact #</label>
-                <input type="tel" class="form-control" id="contact" placeholder="Enter your contact no."
-                  name="Contact #" required="" aria-label="Contact #">
-              </div>
-              <div class="form-group">
-                <label for="message">Message</label>
-                <textarea class="form-control" name="message" id="message" placeholder="Enter your message" rows="3"
-                  required="" aria-label="message" spellcheck="false"></textarea>
-              </div>
-              <button class="btn btn-primary" type="button">Submit</button>
-            </form>
-            <!-- <h4>Navigate</h4>
-                    <ul class="links-list a-text-cont a-text-main-cont font-poppins">
-                      <li><a href="index.html">Home</a></li>
-                      <li><a href="shortcodes.html">Shortcodes</a></li>
-                      <li><a href="services.html">Services</a></li>
-                      <li><a href="index-portfolio.html">Portfolio</a></li>
-                      <li><a href="index-blog.html">Blog</a></li>
-                      <li><a href="index-shop.html">Shop</a></li>
-                      <li><a href="intro.html">Pages</a></li>
-                    </ul> -->
-          </div>
-          <!-- <div class="col-md-3 col-sm-3 widget">
-                    <h4>Insights</h4>
-                    <ul class="links-list a-text-cont font-poppins">
-                      <li><a href="about-us.html">Company</a></li>
-                      <li><a href="services.html">What We Do</a></li>
-                      <li><a href="https://help.market.envato.com/hc/en-us">Help Center</a></li>
-                      <li><a href="http://themeforest.net/legal/market">Terms of Service</a></li>
-                      <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                  </div> -->
-          <!-- TWITTER FEEDS -->
-          <!-- <div class="col-md-4 col-sm-4 widget">
-                    <h4>Recent Tweets</h4>
-                    <div id="twitter-feeds"></div>
-                  </div> -->
-        </div>
-        <!-- SUB FOOTER -->
-        <div class="footer2-copy-cont clearfix">
-          <!-- Social Links -->
-          <div class="footer2-soc-a right">
-            <a href="https://www.facebook.com/theesmaevents/" title="Facebook" target="_blank"><i
-                class="fa fa-facebook"></i></a>
-            <!-- <a href="" title="Twitter" target="_blank"><i
-                        class="fa fa-twitter"></i></a>
-                    <a href="https://www.behance.net/abcgomel" title="Behance" target="_blank"><i
-                        class="fa fa-behance"></i></a> -->
-            <a href="https://www.instagram.com/theesma_events/" title="instagram" target="_blank"><i
-                class="fa fa-instagram"></i></a>
-            <a href="https://www.youtube.com/channel/UCx6PZi3Y0JrRNEOJPUbUqxw" title="YouTube" target="_blank"><i
-                class="fa fa-youtube"></i></a>
-          </div>
-          <!-- Copyright -->
-          <div class="left">
-            <a href="" target="_blank">&copy;The Esma Events</a><br><a href="https://www.tensketch.com/">Made
-              with&nbsp;<i class="fa fa-heart" aria-hidden="true"></i>&nbsp;by TenSketch</a>
-          </div>
+            <div class="form-group">
+              <label>Email ID</label>
+              <input type="email" class="form-control" id="e_mail_address" name="Email ID"
+                placeholder="abc@somemail.com" aria-label="e_mail_address" autocomplete="off" required="">
+            </div>
+            <div class="form-group">
+              <label>Message</label>
+              <textarea class="form-control" name="Message" id="message"
+                placeholder="Enter your message / feedback / enquiry" aria-label="message" rows="3" spellcheck="false"
+                required=""></textarea>
+            </div>
+            <div class="form-group">
+              <input type="submit" class="btn btn-primary" id="submit-form" value="SUBMIT"
+                aria-label="submit-form button">
+            </div>
+          </form>
         </div>
       </div>
-    </footer>
-    <!-- BACK TO TOP -->
-    <p id="back-top">
-      <a href="#top" title="Back to Top"><span class="icon icon-arrows-up"></span></a>
-    </p>
-  </div><!-- End wrap -->
-  <!-- JS begin -->
-  <!-- jQuery  -->
+      <div class="footer2-copy-cont clearfix">
+        <div class="footer2-soc-a right mb-10">
+          <a href="https://www.facebook.com/theesmaevents/" title="Facebook" target="_blank" rel="noopener"
+            aria-label=" Esma Events facebook page"><i class="fa fa-facebook fa-2x"></i></a>
+          <a href="https://www.instagram.com/theesma_events/" title="instagram" target="_blank" rel="noopener"
+            aria-label=" Esma Events instagram page"><i class="fa fa-instagram fa-2x"></i></a>
+          <a href="https://www.youtube.com/channel/UCx6PZi3Y0JrRNEOJPUbUqxw" title="YouTube" target="_blank"
+            rel="noopener" aria-label=" Esma Events youtube page"><i class="fa fa-youtube fa-2x"></i></a>
+        </div>
+        <div class="left">
+          &copy;&nbsp;
+          <script type="text/JavaScript">
+                  document.write(new Date().getFullYear());
+                  </script>&nbsp;The Esma Event<br>Sketched
+          with&nbsp;<i class="fa fa-heart" aria-hidden="true"></i>&nbsp;by <a href="https://www.tensketch.com/"
+            aria-label="TenSketch website designers and developers in Chennai.">TenSketch</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- BACK TO TOP -->
+  <p id="back-top">
+    <a href="#top" title="Back to Top"><span class="icon icon-arrows-up"></span></a>
+  </p>
   <script src="js/jquery.min.js"></script>
-  <!-- Include all compiled plugins (below), or include individual files as needed -->
   <script src="js/bootstrap.min.js"></script>
-  <!-- MAGNIFIC POPUP -->
-  <script src="js/jquery.magnific-popup.min.js"></script>
   <!-- PORTFOLIO SCRIPTS -->
   <script src="js/isotope.pkgd.min.js"></script>
   <script src="js/imagesloaded.pkgd.min.js"></script>
   <script src="fancybox-2.1.7/jquery.fancybox.pack.js"></script>
-  <!-- <script src="js/masonry.pkgd.min.js"></script> -->
-  <!-- APPEAR -->
   <script src="js/jquery.appear.js"></script>
-  <!-- OWL CAROUSEL -->
-  <script src="js/owl.carousel.min.js"></script>
-  <!-- MAIN SCRIPT -->
   <script src="js/main.js"></script>
-  <!-- JS end -->
 </body>
 </html>
