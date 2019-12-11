@@ -7677,6 +7677,10 @@ select.input-border {
     .mt-team{
         margin-top: 0px!important;
     }
+    .bg-t{
+        background-color:transparent!important;
+        padding: 0rem!important;
+    }
 }
 @media only screen and (max-width: 768px) {
     .s1-font1 {
@@ -7692,7 +7696,7 @@ select.input-border {
         padding: 2.5rem 10rem!important;
     }
     .p-team{
-        padding:0rem!important;
+        padding:0rem 0rem 2rem 0rem!important;
     }
     .p-abt {
         padding: 2.5rem!important;
@@ -7717,6 +7721,7 @@ select.input-border {
     margin-top: 20px!important;
 }
 }
+
 
 @media only screen and (max-width: 600px) {
     .s1-font {
@@ -7772,6 +7777,9 @@ select.input-border {
     }
     .footer2-text-cont {
         margin-bottom: 24px;
+    }
+    .ps-t{
+        padding: 0rem!important;
     }
 }
 
@@ -7896,6 +7904,7 @@ select.input-border {
     background-size: cover;
     padding: 10rem 0rem;
 }
+
 
 
 .ptb-10 {
@@ -10663,6 +10672,7 @@ blockquote.custom-blockquote:before {
     .w-100-767 {
         width: 100%;
     }
+    
 }
 
 
@@ -13508,6 +13518,9 @@ a:focus {
         padding-left: 0;
         padding-right: 0;
     }
+    .ps-t{
+        padding: 0rem!important;
+    }
 }
 
 @media only screen and (max-width:480px) {
@@ -16033,6 +16046,7 @@ h2.portfolio-timeline-title {
         position: relative;
         right: 0;
     }
+    
 }
 
 
@@ -19126,4 +19140,12 @@ article{
 
 th, td{
     border: 1px solid #0000003d;
+}
+.bg-t{
+    background-color: #e0e0e081;
+    padding: 10rem 0rem;
+}
+
+.ps-t{
+    padding: 10rem 0rem;
 }
